@@ -167,6 +167,7 @@ Create basic level documentation for your pygame created in ```username.py``` an
 
 
 ### PR 3 - Customize your Portfolio
+- Change directory to ```portfolio``` using ```cd portfolio```
 - Create a copy of the Template folder inside the component folder and rename it as `<your_github_username>`
 - Inside the pages folder, create a copy of the `index.js` file and rename it as `<your_github_username>.js`
 - Rename your image as `<your_github_username>` and add to the public folder
