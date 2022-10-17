@@ -1,5 +1,4 @@
 from gameit.example import exampleGame
-from gameit.example import exampleGame
 from gameit.example import treasureHunt
 
 
