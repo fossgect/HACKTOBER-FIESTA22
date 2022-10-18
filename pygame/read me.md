@@ -1,1 +1,1 @@
-Rock,Paper and Scissors game using python
+Flappy Bird game using python
