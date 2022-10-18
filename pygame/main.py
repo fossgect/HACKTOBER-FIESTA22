@@ -1,9 +1,9 @@
 from gameit.example import exampleGame
+from gameit.aqeelshamz import treasureHunt
+
 
 def main():
-    games = {
-        'example':exampleGame
-    }
+    games = {"example": exampleGame, "aqeelshamz": treasureHunt}
     while True:
         username = input("Enter github username:\n")
         try:
@@ -12,5 +12,6 @@ def main():
         except:
             print("Username not found!!.")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
