@@ -1,3 +1,13 @@
+# Treasure Hunt
+# Created by aqeelshamz
+
+# Will you be able to find the treasure?
+
+# How to play:
+# * Use keyboard arrow keys to move the circle
+# * Try not to hit the blocks
+# * Play the game and grab the treasure
+
 import pygame
 
 def treasureHunt():
