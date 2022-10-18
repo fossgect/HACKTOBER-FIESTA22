@@ -1,1 +1,1 @@
-Snake Water Gun game using python
+Snake Game game using python
