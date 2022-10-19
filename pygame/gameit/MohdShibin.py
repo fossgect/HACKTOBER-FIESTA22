@@ -1,3 +1,14 @@
+# Snake Game
+# Created by MohdShibin(https://github.com/MohdShibin)
+
+# Want to play Snake Game?
+
+# How to play:
+# - Use keyboard arrow keys to move up,down,left and right
+# - Eat the food to score
+# - Play the game and have fun
+
+
 import pygame
 import sys
 import random
