@@ -5,9 +5,10 @@ export default function PortfolioNavbar() {
 
   return (
     <Layout>
+
       <Navbar isBordered variant="sticky">
         <Text b color="inherit" className="nav-heading" >
-          Portfolio
+          MohdShibin
         </Text>
         <Navbar.Brand
           css={{
@@ -17,7 +18,7 @@ export default function PortfolioNavbar() {
           }}
         >
           <Text b color="inherit" hideIn="xs">
-            Portfolio
+            MohdShibin
           </Text>
         </Navbar.Brand>
         <Navbar.Content
@@ -35,7 +36,7 @@ export default function PortfolioNavbar() {
                 as="button"
                 color="secondary"
                 size="md"
-                src="/MohdShibin.jpg" // Change Image name to your Uploaded File Name
+                src="/MohdShibin.jpg"
               />
             </Navbar.Item>
           </Dropdown>
