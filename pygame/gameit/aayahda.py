@@ -1,3 +1,12 @@
+# Snake Game
+
+# Remember the childhood classic Snake Game?
+
+# How to play:
+# - Use keyboard arrow keys to move up, down,left and right
+# - Eat the red food to score
+# - If you don't wanna die, stay away from the walls
+# - Play the game and have tons fun!
 import pygame
 import random
 import time
