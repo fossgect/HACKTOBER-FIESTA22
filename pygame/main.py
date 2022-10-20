@@ -3,6 +3,7 @@ from gameit.aqeelshamz import treasureHunt
 from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
 from gameit.sreni import Tic_Tac_Toe
+from gameit.kmSidharthM import Space_Invader
 
 def main():
     games = {
@@ -11,6 +12,7 @@ def main():
       "aqeelshamz": treasureHunt, 
       "MohdShibin": snakeGame,
       "sreni":Tic_Tac_Toe, 
+      "kmSidharthM":Space_Invader,
     }
 
     while True:
