@@ -109,18 +109,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Tic Tac Toe</Text>
+                            <Text b>Treasure Hunt Game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Tic tac toe game for Android
+                                Treasure hunt game using pygame python library.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://play.google.com/store/apps/details?id=com.aqeelshamz.tictactoe">
+                                <Link href="https://github.com/fossgect/HACKTOBER-FIESTA22/blob/main/pygame/gameit/aqeelshamz.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
