@@ -1,16 +1,23 @@
 from gameit.example import exampleGame
 from gameit.aqeelshamz import treasureHunt
+from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
 from gameit.sreni import Tic_Tac_Toe
 from gameit.majid_2002 import jumpMan
+from gameit.abhijithram import abhiGame
+from gameit.kmSidharthM import Space_Invader
+
 
 def main():
     games = {
+      "aayahda": snakesGame,
       "example": exampleGame, 
       "aqeelshamz": treasureHunt, 
       "MohdShibin": snakeGame,
-      "sreni":Tic_Tac_Toe,
-      "majid-2002":jumpMan
+      "majid-2002":jumpMan,
+      "sreni":Tic_Tac_Toe, 
+      "abhijithram":abhiGame,
+      "kmSidharthM":Space_Invader,
     }
 
     while True:
