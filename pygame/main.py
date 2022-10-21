@@ -4,6 +4,8 @@ from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
 from gameit.sreni import Tic_Tac_Toe
 from gameit.abhijithram import abhiGame
+from gameit.kmSidharthM import Space_Invader
+
 
 def main():
     games = {
@@ -13,6 +15,7 @@ def main():
       "MohdShibin": snakeGame,
       "sreni":Tic_Tac_Toe, 
       "abhijithram":abhiGame,
+      "kmSidharthM":Space_Invader,
     }
 
     while True:

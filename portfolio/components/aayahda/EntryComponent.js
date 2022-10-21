@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/aqeelshamz.png' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/aayahda.jpeg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Aqeel") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey, I'm Aadhya K Raj") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        I'm a Full Stack Developer and Student pursuing B.Tech in Computer Science from<br/>Government Engineering College, Thrissur
+                         App designer and developer.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : JavaScript, React.js, Flutter, Node.js
+                        Tech Stacks : HTML, CSS, JavaScript, Flutter
                     </p>
                 </div>
             </div>
@@ -63,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Postify - REST API Client</Text>
+                            <Text b>MyPlastic Pays</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                REST API Client for Android
+                                Reward buddy that rewards you for every plastic bottle that you deposite in Garbin(work in progress)
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://play.google.com/store/apps/details?id=com.aqeelshamz.postify">
+                                <Link href="https://github.com/aayahda/MiniProject">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -86,18 +86,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Wallpapers App</Text>
+                            <Text b>Reader's Hideout</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Wallpapers app for Android using Pexels API
+                                A book review app using built Flutter and API.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://play.google.com/store/apps/details?id=com.aqeelshamz.wallpapers">
+                                <Link href="https://github.com/aayahda/Readers_Hideout">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -109,18 +109,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Treasure Hunt Game</Text>
+                            <Text b>Bitcoin Ticker</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Treasure hunt game using pygame python library.
+                                Realtime bitcoin price displayed.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/fossgect/HACKTOBER-FIESTA22/blob/main/pygame/gameit/aqeelshamz.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
