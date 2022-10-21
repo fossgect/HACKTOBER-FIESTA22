@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/kmSidharthM.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/kmSidharthM.jpeg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm K M Sidharth Murali") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -64,18 +64,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Space-Invader</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A 2D game to save the space from invaders.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/kmSidharthM/HACKTOBER-FIESTA22/blob/main/pygame/gameit/kmSidharthM.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -98,7 +98,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/kmSidharthM/HACKTOBER-FIESTA22">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
