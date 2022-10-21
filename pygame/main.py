@@ -3,6 +3,7 @@ from gameit.aqeelshamz import treasureHunt
 from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
 from gameit.sreni import Tic_Tac_Toe
+from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
 
@@ -13,6 +14,7 @@ def main():
       "example": exampleGame, 
       "aqeelshamz": treasureHunt, 
       "MohdShibin": snakeGame,
+      "majid-2002":jumpMan,
       "sreni":Tic_Tac_Toe, 
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
