@@ -1,3 +1,10 @@
+# JumpMan
+# Created by Abdul Majid
+
+
+#? The objective of the game is to jump through the blacks till the last block in the game
+#* Use spacebar to jump and LEFT and RIGHT arrow keys to move through the screen
+
 import pygame
 
 def jumpMan():
@@ -11,7 +18,7 @@ def jumpMan():
 
     width = 20              #* width of the character
 
-    speed = 2
+    speed = 2               #* speed of the character
 
     run = True
     while run:
@@ -21,9 +28,9 @@ def jumpMan():
             if event.type == pygame.QUIT:
                 run = False
 
-        keys = pygame.key.get_pressed()
+        keys = pygame.key.get_pressed() 
 
-        if keys[pygame.K_SPACE] and y > 0:
+        if keys[pygame.K_SPACE] and y > 0:  
             y -= speed
 
         if not keys[pygame.K_SPACE] and y < 480:
@@ -58,12 +65,12 @@ def jumpMan():
         if not keys[pygame.K_SPACE] and x >= 300 and x <= 340: #? fourth box condition for character to change the position
             y = 285
 
-        if not keys[pygame.K_SPACE] and x >= 400 and x <= 440:
+        if not keys[pygame.K_SPACE] and x >= 400 and x <= 440: #? condition for character when it reached at the last block of the game
             y = 430
             print("You won the game !")
             pygame.quit()
 
-        if y > 480:
+        if y > 480: #? condition for character if doesnt't reach the last block or it fall from the block
             print("Game Over , Try Again!")
             pygame.quit()
         
