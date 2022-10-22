@@ -1,12 +1,11 @@
 from gameit.example import exampleGame
 from gameit.aqeelshamz import treasureHunt
-<<<<<<< HEAD
+
 from gameit.urmila import HuntingBirds
 
 
-def main():
-    games = {"example": exampleGame, "aqeelshamz": treasureHunt, "urmila": HuntingBirds}
-=======
+
+
 from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
 from gameit.AditiAjithkumar import SnakeGame
@@ -28,9 +27,10 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
-      "AditiAjithkumar":SnakeGame
+      "AditiAjithkumar":SnakeGame,
+      "urmila":HuntingBirds
     }
->>>>>>> c828a65a749b7d4c82a12fcb27e224b599dff026
+
     while True:
         username = input("Enter github username:\n")
         try:
