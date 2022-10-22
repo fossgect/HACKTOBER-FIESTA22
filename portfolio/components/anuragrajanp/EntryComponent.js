@@ -63,6 +63,29 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
+                            <Text b>Feed The Snake</Text>
+                        </Card.Header>
+                        <Card.Divider />
+                        <Card.Body css={{ py: "$10" }}>
+                            <Text>
+                                Feed The Snake is a simple snake game developed using Pygame.
+                            </Text>
+                        </Card.Body>
+                        <Card.Divider />
+                        <Card.Footer>
+                            <Row justify="flex-end">
+                                <Link href="https://github.com/anuragrajanp/feedthesnake">
+                                    <Button size="sm" light color="primary">Link</Button>
+                                </Link>
+                            </Row>
+                        </Card.Footer>
+                        </Card>
+                    </Grid>
+
+                    {/* Project 2 */}
+                    <Grid sm={12} md={5} className="flex justify-center">
+                        <Card css={{ width: "330px" }}>
+                        <Card.Header>
                             <Text b>Medhelper</Text>
                         </Card.Header>
                         <Card.Divider />
@@ -83,7 +106,7 @@ export default function EntryComponent(){
                         </Card>
                     </Grid>
 
-                    {/* Project 2 */}
+                    {/* Project 3 */}
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
@@ -106,30 +129,7 @@ export default function EntryComponent(){
                         </Card>
                     </Grid>
 
-                    {/* Project 3 */}
-                    <Grid sm={12} md={5} className="flex justify-center">
-                        <Card css={{ width: "330px" }}>
-                        <Card.Header>
-                            <Text b>YouTube Watchtime Calculator</Text>
-                        </Card.Header>
-                        <Card.Divider />
-                        <Card.Body css={{ py: "$10" }}>
-                            <Text>
-                                It's a C++ program that calculates YouTube watchtime. Using this program we can calculate any of the watch time, views and duration of a video using the other two values. 
-                                This program is used to calculate YouTube watch hour with the input of video duration and number of views considering that viewers watched 100% of the video.
-                            </Text>
-                        </Card.Body>
-                        <Card.Divider />
-                        <Card.Footer>
-                            <Row justify="flex-end">
-                                <Link href="https://github.com/anuragrajanp/watchtime">
-                                    <Button size="sm" light color="primary">Link</Button>
-                                </Link>
-                            </Row>
-                        </Card.Footer>
-                        </Card>
-                    </Grid>
-
+                    
                     
                 </div>
             </div>
