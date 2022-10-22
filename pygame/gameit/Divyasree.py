@@ -2,9 +2,6 @@
 #-->Here the enemies attacking the space is killed using a spaceship.
 #-->You can use th spacebar to fire the bullets and move your spaceship using left and right arrow keys
 
-
-
-
 import math
 import random
 
@@ -21,19 +18,19 @@ def Invader():
     screen = pygame.display.set_mode((800, 600))
 
     # Background
-    background = pygame.image.load('background.png')
+    background = pygame.image.load('static/Divyasree/background.png')
 
     # Sound
-    mixer.music.load("background.wav")
+    mixer.music.load("static/Divyasree/background.wav")
     mixer.music.play(-1)
 
     # Caption and Icon
     pygame.display.set_caption("Space Invader")
-    icon = pygame.image.load('ufo.png')
+    icon = pygame.image.load('static/Divyasree/ufo.png')
     pygame.display.set_icon(icon)
 
     # Player
-    playerImg = pygame.image.load('player.png')
+    playerImg = pygame.image.load('static/Divyasree/player.png')
     playerX = 370
     playerY = 480
     playerX_change = 0
@@ -47,7 +44,7 @@ def Invader():
     num_of_enemies = 6
 
     for i in range(num_of_enemies):
-        enemyImg.append(pygame.image.load('enemy.png'))
+        enemyImg.append(pygame.image.load('static/Divyasree/enemy.png'))
         enemyX.append(random.randint(0, 736))
         enemyY.append(random.randint(50, 150))
         enemyX_change.append(4)
@@ -58,7 +55,7 @@ def Invader():
     # Ready - You can't see the bullet on the screen
     # Fire - The bullet is currently moving
 
-    bulletImg = pygame.image.load('bullet.png')
+    bulletImg = pygame.image.load('static/Divyasree/bullet.png')
     bulletX = 0
     bulletY = 480
     bulletX_change = 0
@@ -68,13 +65,13 @@ def Invader():
     # Score
 
     score_value = 0
-    font = pygame.font.Font('freesansbold.ttf', 32)
+    font = pygame.font.Font('static/Divyasree/BebasNeue-Regular.ttf', 32)
 
     textX = 10
     testY = 10
 
     # Game Over
-    over_font = pygame.font.Font('freesansbold.ttf', 64)
+    over_font = pygame.font.Font('static/Divyasree/dDiam.ttf', 64)
 
 
     def show_score(x, y):
@@ -128,8 +125,8 @@ def Invader():
                 if event.key == pygame.K_RIGHT:
                     playerX_change = 5
                 if event.key == pygame.K_SPACE:
-                    if bullet_state is "ready":
-                        bulletSound = mixer.Sound("laser.wav")
+                    if bullet_state == "ready":
+                        bulletSound = mixer.Sound("static/Divyasree/laser.wav")
                         bulletSound.play()
                         # Get the current x cordinate of the spaceship
                         bulletX = playerX
@@ -169,7 +166,7 @@ def Invader():
             # Collision
             collision = isCollision(enemyX[i], enemyY[i], bulletX, bulletY)
             if collision:
-                explosionSound = mixer.Sound("explosion.wav")
+                explosionSound = mixer.Sound("static/Divyasree/explosion.wav")
                 explosionSound.play()
                 bulletY = 480
                 bullet_state = "ready"
@@ -184,7 +181,7 @@ def Invader():
             bulletY = 480
             bullet_state = "ready"
 
-        if bullet_state is "fire":
+        if bullet_state == "fire":
             fire_bullet(bulletX, bulletY)
             bulletY -= bulletY_change
 
