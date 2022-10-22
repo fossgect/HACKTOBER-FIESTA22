@@ -1,18 +1,17 @@
 import pygame
-
+#main function of the pong game
 def pongGame():
+    #setting the RGB values of each color so that it can be easily used
     BLACK = (0,0,0)
     WHITE = (255,255,255)
     RED = (255,0,0)
-    GREEN = (0,255,0)
-    BLUE = (0,0,255)
 
-    pygame.init()
+    pygame.init() #initialize all imported pygame modules
 
     #Initializing the display window
     size = (800,600)
     screen = pygame.display.set_mode(size)
-    pygame.display.set_caption("pong")
+    pygame.display.set_caption("Pong")
 
     #Starting coordinates of the paddle
     rect_x = 400
@@ -92,6 +91,6 @@ def pongGame():
         screen.blit(text,[600,100])    
         
         pygame.display.flip()         
-        clock.tick(60)
+        clock.tick(60) #the FPS is specified as 60
         
     pygame.quit()  
