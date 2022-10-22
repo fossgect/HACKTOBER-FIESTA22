@@ -3,6 +3,7 @@ from gameit.AnnMol_2002 import sudoku
 
 def main():
     games = {
+        'example':exampleGame,
         'AnnMol-2002':sudoku
     }
     while True:
