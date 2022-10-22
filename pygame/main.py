@@ -6,7 +6,7 @@ from gameit.sreni import Tic_Tac_Toe
 from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
-
+from gameit.Divyasree import Invader
 
 def main():
     games = {
@@ -18,6 +18,7 @@ def main():
       "sreni":Tic_Tac_Toe, 
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
+      "Divyasree":Invader
     }
 
     while True:
