@@ -8,6 +8,7 @@ from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
+from gameit.ash394 import pongGame
 
 
 def main():
@@ -21,7 +22,8 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
-      "AditiAjithkumar":SnakeGame
+      "AditiAjithkumar":SnakeGame,
+      "Ash-394": pongGame
     }
     while True:
         username = input("Enter github username:\n")
