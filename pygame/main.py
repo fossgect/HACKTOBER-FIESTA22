@@ -1,9 +1,9 @@
 from gameit.example import exampleGame
-from gameit.AnnMol-2002 import sudoku
+from gameit.AnnMol_2002 import sudoku
 
 def main():
     games = {
-        'example':exampleGame,'AnnMol-2002':sudoku
+        'AnnMol-2002':sudoku
     }
     while True:
         username = input("Enter github username:\n")
