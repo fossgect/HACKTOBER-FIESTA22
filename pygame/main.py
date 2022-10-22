@@ -1,12 +1,4 @@
-from gameit.example import exampleGame
-<<<<<<< HEAD
-from gameit.AnnMol_2002 import sudoku
 
-def main():
-    games = {
-        'example':exampleGame,
-        'AnnMol-2002':sudoku
-=======
 from gameit.aqeelshamz import treasureHunt
 from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
@@ -16,6 +8,8 @@ from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
+from gameit.AnnMol_2002 import sudoku
+from gameit.example import exampleGame
 
 
 def main():
@@ -29,8 +23,8 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
-      "AditiAjithkumar":SnakeGame
->>>>>>> b5b8d215a4065d26037e66ea43adbf890673e7ff
+      "AditiAjithkumar":SnakeGame,
+      'AnnMol_2002':sudoku
     }
     while True:
         username = input("Enter github username:\n")
