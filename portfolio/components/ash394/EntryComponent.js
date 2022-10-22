@@ -7,7 +7,7 @@ import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Aswini") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Aswini!") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                         Tech Enthusiast
+                         CSE undergrad | Tech Enthusiast
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : Python,C++,HTML, CSS, JavaScript
+                        Tech Stacks : Python, Flask, C++, C, HTML, CSS, JavaScript, Solidity
                     </p>
                 </div>
             </div>
@@ -63,18 +63,19 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project</Text>
+                            <Text b>Pong game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                            Project Description
+                            Pong is a table tennis–themed arcade game, featuring simple two-dimensional graphics
+                            <br></br> Implemented using pygame
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Ash-394/PongGame">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -86,18 +87,20 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Kanban App</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A organisational app to create/delete lists and adding/removing/switching tasks to/from the various lists.
+                                <br></br>
+                                Implemented using Flask framework
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Ash-394/Kanban-App">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -109,18 +112,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Decentralized Resume</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A resume Implemented on blockchain
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Ash-394/resume-blockchain">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
