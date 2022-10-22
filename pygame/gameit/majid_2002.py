@@ -2,7 +2,7 @@
 # Created by Abdul Majid
 
 
-#? The objective of the game is to jump through the blacks till the last block in the game
+#? The objective of the game is to jump through the black blocks till the last black block in the game
 #* Use spacebar to jump and LEFT and RIGHT arrow keys to move through the screen
 
 import pygame
