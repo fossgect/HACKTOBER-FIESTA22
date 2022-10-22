@@ -1,4 +1,4 @@
-import EntryComponent from "../components/Templete/EntryComponent";
+import EntryComponent from "../components/AbhijithRam/EntryComponent";
 
 
 export default function Home() {
