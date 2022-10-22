@@ -1,3 +1,23 @@
+# Tic Tac Toe Game
+# Created by Sreni Saji(https://github.com/Sre-n)
+
+# Want to play Tic Tac Toe?
+
+# How to play:
+# - Select a pattern of your choice "X" or "O"
+# - Place your pattern at desired position of your choice amongst the 9 places 
+# - Logically use your tactics to make horizontal, vertical or diagonal design of your pattern to win
+# - Play the game and have fun
+
+
+#RULES FOR TIC-TAC-TOE
+
+#1. The game is played on a grid that's 3 squares by 3 squares.
+#2. You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares.
+#3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+#4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+
+
 from tkinter import *
 import numpy as np
 
