@@ -2,13 +2,7 @@ from gameit.example import exampleGame
 from gameit.aqeelshamz import treasureHunt
 from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
-<<<<<<< HEAD
 from gameit.AditiAjithkumar import SnakeGame
-
-
-def main():
-    games = {"example": exampleGame, "aqeelshamz": treasureHunt, "MohdShibin": snakeGame, "AditiAjithkumar": SnakeGame}
-=======
 from gameit.sreni import Tic_Tac_Toe
 from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
@@ -28,8 +22,6 @@ def main():
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
     }
-
->>>>>>> 50089a6258269619f2a9c7268458d4bcce1a2c93
     while True:
         username = input("Enter github username:\n")
         try:
