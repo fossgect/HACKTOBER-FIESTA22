@@ -21,6 +21,7 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
+      "AditiAjithkumar":SnakeGame
     }
     while True:
         username = input("Enter github username:\n")
