@@ -1,4 +1,15 @@
-# importing libraries
+#Snake game
+#Created by Ebin Jose(https://github.com/ebinjose02)
+
+#How to play:
+# ->Use keyboard arrow keys to move the snake up,down,left and right.
+# ->Collect the white squares to increase your points.
+# ->Stay away from walls.
+# ->Game ends even when snake head touches its own body.
+# ->Score will be displayed in the center of your screen after losing or quitting.
+
+#Happy Gaming!!
+#importing libraries
 import pygame
 import time
 import random
