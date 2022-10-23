@@ -1,4 +1,5 @@
 
+
 from gameit.aqeelshamz import treasureHunt
 
 from gameit.urmila import HuntingBirds
@@ -17,7 +18,8 @@ from gameit.anuragrajanp import feedTheSnake
 from gameit.AnnMol_2002 import sudoku
 from gameit.example import exampleGame
 from gameit.ash394 import pongGame
-
+from gameit.vishakh import car_game
+from gameit.ebinjose02 import Snake
 
 def main():
     games = {
@@ -35,8 +37,14 @@ def main():
       "urmila":HuntingBirds
 =======
       'AnnMol_2002':sudoku,
+<<<<<<< HEAD
       "Ash-394": pongGame
 >>>>>>> ad5d34bbd12b3a51f342122ffeb1665e1f802c0c
+=======
+      "Ash-394": pongGame,
+      "vishakh": car_game,
+      "ebinjose02":Snake
+>>>>>>> 05ce253c4947893a0c8f89819108da399b0b4682
     }
 
     while True:

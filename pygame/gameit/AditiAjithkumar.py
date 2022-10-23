@@ -1,3 +1,13 @@
+#SNAKE GAME
+
+#How to Play :
+# ->Use keyboard arrow keys to move the snake up,down,left and right.
+# ->Feed the snake to earn points.
+# ->Stay away from walls.
+# ->Score will be displayed in the top left corner of the screen.
+
+#Happy Gaming!!
+
 import pygame
 import time
 import random
