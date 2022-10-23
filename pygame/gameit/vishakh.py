@@ -1,7 +1,3 @@
-from unicodedata import combining
-from platformdirs import user_cache_dir
-
-
 # car game 
 # project by vishakh prakash
 
