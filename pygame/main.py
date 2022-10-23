@@ -10,6 +10,7 @@ from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
 from gameit.AnnMol_2002 import sudoku
 from gameit.example import exampleGame
+from gameit.ash394 import pongGame
 
 
 def main():
@@ -24,14 +25,15 @@ def main():
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
       "AditiAjithkumar":SnakeGame,
-      'AnnMol_2002':sudoku
+      'AnnMol_2002':sudoku,
+      "Ash-394": pongGame
     }
     while True:
         username = input("Enter github username:\n")
         try:
             games[username]()
             print("Happy Gaming")
-        except:
+        except KeyError:
             print("Username not found!!.")
 
 
