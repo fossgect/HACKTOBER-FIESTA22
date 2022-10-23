@@ -1,4 +1,4 @@
-from gameit.example import exampleGame
+
 from gameit.aqeelshamz import treasureHunt
 
 from gameit.urmila import HuntingBirds
@@ -14,6 +14,9 @@ from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
+from gameit.AnnMol_2002 import sudoku
+from gameit.example import exampleGame
+from gameit.ash394 import pongGame
 
 
 def main():
@@ -28,7 +31,12 @@ def main():
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
       "AditiAjithkumar":SnakeGame,
+<<<<<<< HEAD
       "urmila":HuntingBirds
+=======
+      'AnnMol_2002':sudoku,
+      "Ash-394": pongGame
+>>>>>>> ad5d34bbd12b3a51f342122ffeb1665e1f802c0c
     }
 
     while True:
@@ -36,7 +44,7 @@ def main():
         try:
             games[username]()
             print("Happy Gaming")
-        except:
+        except KeyError:
             print("Username not found!!.")
 
 
