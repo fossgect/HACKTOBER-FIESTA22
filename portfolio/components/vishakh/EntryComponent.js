@@ -7,7 +7,7 @@ import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Vishakh") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -48,7 +48,7 @@ export default function EntryComponent(){
                         hoarding up my emotions and corroding my brain. Late nights are like ealy mornings for me.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, python, flak
+                        Tech Stacks : HTML, CSS, python, flask, java, c
                     </p>
                 </div>
             </div>
