@@ -1156,6 +1156,16 @@
   "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   "version" "1.1.4"
 
+"component-run@^0.0.0":
+  "integrity" "sha512-cYDFx9rBw6sTyCr4ax3BI4H0vGnLnFBNLU/ZvGvSZkBQNjD+m9fVrwe+Rv/Ta9dWBf3MoLwg18xYIQgG+sVJbg=="
+  "resolved" "https://registry.npmjs.org/component-run/-/component-run-0.0.0.tgz"
+  "version" "0.0.0"
+
+"components@^0.1.0":
+  "integrity" "sha512-4xKUO3dL9LBs8WiOKy2kvLfnwKZLps9xDT5cFS0GL4UiXrr/dNUYus7Uf1bRPG66cUpEmwFAWVOlE9cxQgG+QA=="
+  "resolved" "https://registry.npmjs.org/components/-/components-0.1.0.tgz"
+  "version" "0.1.0"
+
 "concat-map@0.0.1":
   "integrity" "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg=="
   "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
