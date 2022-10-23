@@ -30,7 +30,7 @@ def main():
         try:
             games[username]()
             print("Happy Gaming")
-        except:
+        except KeyError:
             print("Username not found!!.")
 
 
