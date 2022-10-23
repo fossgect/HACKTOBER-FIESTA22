@@ -11,6 +11,7 @@ from gameit.anuragrajanp import feedTheSnake
 from gameit.AnnMol_2002 import sudoku
 from gameit.example import exampleGame
 from gameit.ash394 import pongGame
+from gameit.vishakh import car_game
 
 
 def main():
@@ -26,7 +27,8 @@ def main():
       "anuragrajanp":feedTheSnake,
       "AditiAjithkumar":SnakeGame,
       'AnnMol_2002':sudoku,
-      "Ash-394": pongGame
+      "Ash-394": pongGame,
+      "vishakh": car_game,
     }
     while True:
         username = input("Enter github username:\n")
