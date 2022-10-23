@@ -1,9 +1,9 @@
 from gameit.example import exampleGame
 from gameit.aqeelshamz import treasureHunt
-
+from gameit.yadunandan import flappy
 
 def main():
-    games = {"example": exampleGame, "aqeelshamz": treasureHunt}
+    games = {"example": exampleGame, "aqeelshamz": treasureHunt, "yadunandan":flappy}
     while True:
         username = input("Enter github username:\n")
         try:
