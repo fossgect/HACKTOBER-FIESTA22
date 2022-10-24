@@ -1,6 +1,25 @@
 import pygame
 import random
 
+# HOW TO PLAY --- SUDOKO GAME
+
+# use arrow keys to navigate through the grids
+# enter any digit from 1-9 to the empty grids
+# no digit can appear more than once in the corressponding row or colowmn or in the 3 * 3 grid
+# a repeating input raises an error message
+# player cannot change the given value in the grid
+# player can update his/ her inputed value by entering the desired value into it
+
+# press ENTER after inputing all values or if you want to know the result
+# if the player has solved the sudoko completely his/her score increases otherwise it remains the same 
+
+# press N to switch to another board
+# this being a basic game has 3 different sudoko boards
+
+# press esc key to close the game 
+# Enjoy playing
+
+
 def SudokoGame():
     pygame.font.init()
 
@@ -15,6 +34,7 @@ def SudokoGame():
     val = 0
     score = 0
 
+    # Default Sudoku Boards.
 
     grid1 =[
         [7, 8, 0, 4, 0, 0, 1, 2, 0],
@@ -68,12 +88,13 @@ def SudokoGame():
         global y
         y = pos[1]//dif
 
+    # Highlight the cell selected
     def draw_box():
         for i in range(2):
             pygame.draw.line(screen, (0, 0, 255), (x * dif-3, (y + i)*dif), (x * dif + dif + 3, (y + i)*dif), 5)
             pygame.draw.line(screen, (0, 0, 255), ( (x + i)* dif, y * dif ), ((x + i) * dif, y * dif + dif), 5)
 
-    
+    # Function to draw required lines for making Sudoku grid
     def draw():
         for i in range (9):
             for j in range (9):
@@ -95,10 +116,12 @@ def SudokoGame():
             pygame.draw.line(screen, (0, 0, 0), (0, i * dif), (500, i * dif), thick)
             pygame.draw.line(screen, (0, 0, 0), (i * dif, 0), (i * dif, 500), thick)
 
+    # Fill value entered in cell
     def draw_val(val):
         text1 = font1.render(str(val), 1, (0, 0, 0))
         screen.blit(text1, (x * dif + 15, y * dif + 15))
 
+    # Raise error when wrong value entered
     def raise_error1():
         text1 = font1.render("WRONG !!!", 1, (0, 0, 0))
         screen.blit(text1, (20, 570))
@@ -107,12 +130,14 @@ def SudokoGame():
         text1 = font1.render("Wrong !!! Not a valid Key", 1, (0, 0, 0))
         screen.blit(text1, (20, 570))
 
+    # display better luck next time if unable to complete
     def next_time():
         text1 = font1.render("better luck next time", 1, (0, 0, 0))
         screen.blit(text1, (20, 570))
         score_text = font2.render("SCORE : " + str(score), 1, (0,0,0))
         screen.blit(score_text, (40, 610))
-        
+
+    # Check if the value entered in board is valid   
     def valid(m, i, j, val):
         for it in range(9):
                 if m[i][it]== val:
@@ -128,6 +153,7 @@ def SudokoGame():
                         return False
         return True
 
+    #to check if sudoko puzzle is completed
     def find_empty(grid):
         for i in range(len(grid)):
             for j in range(len(grid[0])):
@@ -136,6 +162,7 @@ def SudokoGame():
 
         return False
 
+    # Solves the sudoku board using the Backtracking Algorithm
     def solve(grid, i, j):
 
         while grid[i][j]!= 0:
@@ -236,9 +263,6 @@ def SudokoGame():
                         val = 8
                     if event.key == pygame.K_9:
                         val = 9
-                    
-                    if event.key == pygame.K_r:
-                        grid = grid_original[num]
 
                     if event.key == pygame.K_RETURN:
                         flag2 = 1
@@ -261,13 +285,16 @@ def SudokoGame():
                         error = 1
                 draw()        
                 if val != 0: 
-                    if valid(grid, int(x), int(y), val)== True:
+                    g = grid_original[num]
+                    if g[int(x)][int(y)]!=0:
+                        raise_error2()
+
+                    elif valid(grid, int(x), int(y), val)== True:
                         grid[int(x)][int(y)]= val
                         flag1 = 0
                         draw_val(val)
                         
-                    elif grid[int(x)][int(y)]!=0:
-                        raise_error2()
+                    
                     else:
                         raise_error2()
                     val = 0
@@ -289,3 +316,4 @@ def SudokoGame():
 
 
     pygame.quit()
+
