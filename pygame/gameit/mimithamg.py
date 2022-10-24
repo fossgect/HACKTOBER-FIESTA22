@@ -11,11 +11,11 @@ def halloween():
 
     
     pygame.display.set_caption("halloween")
-    icon=pygame.image.load('pumpkin.png')
+    icon=pygame.image.load('static/mimithamg/pumpkin.png')
     pygame.display.set_icon(icon)
 
     
-    playerImg=pygame.image.load('ghost.png')
+    playerImg=pygame.image.load('static/mimithamg/ghost.png')
     playerX=370
     playerY=480
     playerX_change =0
@@ -30,7 +30,7 @@ def halloween():
     num_of_enemies=6
 
     for i in range(num_of_enemies):
-        enemyImg.append(pygame.image.load('pumpkin.png'))
+        enemyImg.append(pygame.image.load('static/mimithamg/pumpkin.png'))
         enemyX.append(random.randint(0,735))
         enemyY.append(random.randint(50,150))
         enemyX_change.append(0.3)
@@ -39,7 +39,7 @@ def halloween():
 
 
     
-    bulletImg=pygame.image.load('fire.png')
+    bulletImg=pygame.image.load('static/mimithamg/fire.png')
     bulletX= 0
     bulletY=480
     bulletX_change =0
@@ -102,7 +102,7 @@ def halloween():
 
                 
               if event.key==pygame.K_SPACE:
-                if bullet_state is "ready":
+                if bullet_state == "ready":
                   bulletX=playerX
                   fire_bullet(playerX,bulletY)
 

@@ -13,6 +13,7 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
+from gameit.mimithamg import halloween
 
 def main():
     games = {
@@ -30,8 +31,10 @@ def main():
       'AnnMol_2002':sudoku,
       "Ash-394": pongGame,
       "vishakh": car_game,
-      "ebinjose02":Snake
-}
+      "ebinjose02":Snake,
+      "mimithamg":halloween,
+
+    }
 
     while True:
         username = input("Enter github username:\n")
