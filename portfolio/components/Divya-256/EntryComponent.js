@@ -44,10 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        CSE undergrad | Tech Enthusiast | Web Developer
+                        CSE undergrad |Tech enthusiasts | Web Developer
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript,C,JAVA,Python,Reactjs,Nextjs,Django 
+                        Tech Stacks : HTML, CSS, JavaScript,C ,JAVA,Python,Nextjs,Reactjs,Django
                     </p>
                 </div>
             </div>
