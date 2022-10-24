@@ -27,7 +27,6 @@ def main():
       "anuragrajanp":feedTheSnake,
       "AditiAjithkumar":SnakeGame,
       'AnnMol_2002':sudoku,
-      "Ash-394": pongGame,
       "joepaul13": joeSnake
     }
     while True:
