@@ -63,18 +63,20 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Pong Game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                               Pong is a pygame created using Python Turtle.This is similiar to table tennis.
+                               Paddles are moved up and down by the two players on either side to hit the moving ball
+                               and if they hit the ball or if the opponent misses the hit ,scores rises.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Divya-256/Pong-Game">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -86,18 +88,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Image_to_Icon_Convertor</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                            Python GUI using Tkinter package for an application to convert an image to an icon
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Divya-256/Image_to_Icon_Convertor">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -109,18 +111,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Age-Calculator</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                            This application helps to find the number of days and total seconds lived by a person using the provided date of birth
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Divya-256/Age-Calculator">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
