@@ -93,7 +93,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                            Python GUI using Tkinter package for an application to convert an image to an icon
+                            Application to convert an image to an icon
                             </Text>
                         </Card.Body>
                         <Card.Divider />
