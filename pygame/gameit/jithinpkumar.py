@@ -6,10 +6,10 @@ def ArmyBase():
         pygame.init()
         screen=pygame.display.set_mode((800,600))
         pygame.display.set_caption("Army Base")
-        icon=pygame.image.load('003-sniper.png')
+        icon=pygame.image.load('static/jithinpkumar/003-sniper.png')
         pygame.display.set_icon(icon)
 
-        playerimg=pygame.image.load('004-soldier.png')
+        playerimg=pygame.image.load('static/jithinpkumar/004-soldier.png')
         playerx=370
         playery=480
         playerxchange=0
@@ -24,13 +24,13 @@ def ArmyBase():
         numofenemy=5
         i=0
         for i in range(numofenemy):
-            enemyimg.append(pygame.image.load('terror.png'))
+            enemyimg.append(pygame.image.load('static/jithinpkumar/terror.png'))
             enemyx.append(random.randint(0,735))
             enemyy.append(random.randint(50,150))
             enemyxchange.append(0.1)
             enemyychange.append(30)
            
-        bulletimg=pygame.image.load('bullet.png')
+        bulletimg=pygame.image.load('static/jithinpkumar/bullet.png')
         bulletx=0
         bullety=480
         bulletxchange=0
