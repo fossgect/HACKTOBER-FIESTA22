@@ -1,10 +1,8 @@
 #Pong Game created using Python Turtle. 
 # Pong is a well-known computer game that is similar to table tennis. 
-# The two players in this game control the two paddles on either side of the game window. 
+# The two players in this game control the two paddles on both side of the game window. 
 # To hit the moving ball, they move the paddles up and down.
 # A player’s score rises when he or she hits the ball or when the opponent misses the hit.
-
-#To create this Python game, we will use the turtle module. 
 # To move the left and right paddles in this game, we will use the up, down, W, and S keys.
 # As a player strikes the ball to a predefined speed level, the speed of the ball rises, as does the score. 
 # When a player misses a hit, the ball restarts from the center towards the other player, with the opponent’s score increasing.
@@ -79,8 +77,7 @@ def pong():
         y = paddle_b.ycor()
         y -= 20
         paddle_b.sety(y)
-
-    # Keyboard bindings
+    #keyboard bindings
     wn.listen()
     wn.onkeypress(paddle_a_up, "w")
     wn.onkeypress(paddle_a_down, "s")
