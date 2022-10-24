@@ -84,6 +84,29 @@ export default function EntryComponent(){
                         </Card>
                     </Grid>
 
+                                        {/* Project 1 */}
+                  <Grid sm={12} md={5} className="flex justify-center">
+                      <Card css={{ width: "330px" }}>
+                      <Card.Header>
+                          <Text b> PYGAME </Text>
+                      </Card.Header>
+                      <Card.Divider />
+                      <Card.Body css={{ py: "$10" }}>
+                          <Text>
+                             TIC-TAC-TOE using Python 
+                          </Text>
+                      </Card.Body>
+                      <Card.Divider />
+                      <Card.Footer>
+                          <Row justify="flex-end">
+                              <Link href="https://github.com/Sre-n/Tic-Tac-Toe">
+                                  <Button size="sm" light color="primary">Link</Button>
+                              </Link>
+                          </Row>
+                      </Card.Footer>
+                      </Card>
+                  </Grid>
+
                     
 
                     {/* Project 3 */}
