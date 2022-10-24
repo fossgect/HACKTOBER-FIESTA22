@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/vishakh.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/Divya-256.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Vishakh") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Divyasree M") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,11 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        HEY I am Vishakh. I am currently persuing computer science at GEC Thrissur, I fell in love with coding in my laptop
-                        hoarding up my emotions and corroding my brain. Late nights are like ealy mornings for me.
+                        CSE undergrad |Tech enthusiasts | Web Developer
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, python, flask, java, c
+                        Tech Stacks : HTML, CSS, JavaScript,C ,JAVA,Python,Nextjs,Reactjs,Django
                     </p>
                 </div>
             </div>
@@ -64,18 +63,20 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Hacktober Fiesta</Text>
+                            <Text b>Pong Game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                An open source project conducted as part of hacktober-fest.
+                               Pong is a pygame created using Python Turtle.This is similiar to table tennis.
+                               Paddles are moved up and down by the two players on either side to hit the moving ball
+                               and if they hit the ball or if the opponent misses the hit ,scores rises.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/HACKTOBER-FIESTA22.git">
+                                <Link href="https://github.com/Divya-256/Pong-Game">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -87,18 +88,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>fl2do list</Text>
+                            <Text b>Image_to_Icon_Convertor</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                A to-do list with a twist
+                            Python GUI using Tkinter package for an application to convert an image to an icon
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/fl2do.git">
+                                <Link href="https://github.com/Divya-256/Image_to_Icon_Convertor">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -110,18 +111,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Pygame</Text>
+                            <Text b>Age-Calculator</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                a car accident avoiding game created with pygame
+                            This application helps to find the number of days and total seconds lived by a person using the provided date of birth
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/HACKTOBER-FIESTA22/blob/main/pygame/gameit/vishakh.py">
+                                <Link href="https://github.com/Divya-256/Age-Calculator">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
