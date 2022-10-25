@@ -1,4 +1,4 @@
-import EntryComponent from "../components/vishakh/EntryComponent";
+import EntryComponent from "../components/ebinjose02/EntryComponent";
 
 
 export default function Home() {

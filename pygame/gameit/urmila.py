@@ -20,11 +20,11 @@ def HuntingBirds():
     #set window title
     pygame.display.set_caption("Hunting Birds")
     #set window icon
-    icon=pygame.image.load('009-bow.png')
+    icon=pygame.image.load('static/urmila/009-bow.png')
     pygame.display.set_icon(icon)
 
     #hunter
-    hunterimg=pygame.image.load('huntergirl.png')
+    hunterimg=pygame.image.load('static/urmila/huntergirl.png')
     #initial position of hunter
     hunterx=370
     huntery=480
@@ -41,14 +41,14 @@ def HuntingBirds():
     numofbird=5
     i=0
     for i in range(numofbird):
-        birdimg.append(pygame.image.load('bird.png'))
+        birdimg.append(pygame.image.load('static/urmila/bird.png'))
         birdx.append(random.randint(0,735))
         birdy.append(random.randint(50,150))
         birdxchange.append(0.1)
         birdychange.append(30)
     
     #arrow
-    arrowimg=pygame.image.load('arrow.png')
+    arrowimg=pygame.image.load('static/urmila/arrow.png')
     arrowx=0
     arrowy=480
     arrowxchange=0

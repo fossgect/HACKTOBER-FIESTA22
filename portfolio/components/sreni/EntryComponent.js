@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/vishakh.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/sreni.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Vishakh") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Sreni Saji") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,11 +44,12 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        HEY I am Vishakh. I am currently persuing computer science at GEC Thrissur, I fell in love with coding in my laptop
-                        hoarding up my emotions and corroding my brain. Late nights are like ealy mornings for me.
+                       Hey peeps| I am Sreni Saji, 3rd semester Computer Science Engineering student 
+                       at Government Engineering College Thrissur. Technology fascinates me and so does my quench
+                       to this field.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, python, flask, java, c
+                        Tech Stacks : HTML, CSS, JavaScript, Python, C
                     </p>
                 </div>
             </div>
@@ -64,18 +65,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Hacktober Fiesta</Text>
+                            <Text b>Banking Management System</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                An open source project conducted as part of hacktober-fest.
+                                A backend software using python and mySQL connector 
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/HACKTOBER-FIESTA22.git">
+                                <Link href="https://github.com/Sre-n/Banking_Management_System">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -83,45 +84,47 @@ export default function EntryComponent(){
                         </Card>
                     </Grid>
 
-                    {/* Project 2 */}
-                    <Grid sm={12} md={5} className="flex justify-center">
-                        <Card css={{ width: "330px" }}>
-                        <Card.Header>
-                            <Text b>fl2do list</Text>
-                        </Card.Header>
-                        <Card.Divider />
-                        <Card.Body css={{ py: "$10" }}>
-                            <Text>
-                                A to-do list with a twist
-                            </Text>
-                        </Card.Body>
-                        <Card.Divider />
-                        <Card.Footer>
-                            <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/fl2do.git">
-                                    <Button size="sm" light color="primary">Link</Button>
-                                </Link>
-                            </Row>
-                        </Card.Footer>
-                        </Card>
-                    </Grid>
+                                        {/* Project 1 */}
+                  <Grid sm={12} md={5} className="flex justify-center">
+                      <Card css={{ width: "330px" }}>
+                      <Card.Header>
+                          <Text b> PYGAME </Text>
+                      </Card.Header>
+                      <Card.Divider />
+                      <Card.Body css={{ py: "$10" }}>
+                          <Text>
+                             TIC-TAC-TOE using Python 
+                          </Text>
+                      </Card.Body>
+                      <Card.Divider />
+                      <Card.Footer>
+                          <Row justify="flex-end">
+                              <Link href="https://github.com/Sre-n/Tic-Tac-Toe">
+                                  <Button size="sm" light color="primary">Link</Button>
+                              </Link>
+                          </Row>
+                      </Card.Footer>
+                      </Card>
+                  </Grid>
+
+                    
 
                     {/* Project 3 */}
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Pygame</Text>
+                            <Text b>Instagram Clone</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                a car accident avoiding game created with pygame
+                                Created a Instagram Clone kotlin app 
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/HACKTOBER-FIESTA22/blob/main/pygame/gameit/vishakh.py">
+                                <Link href="https://github.com/Sre-n/insta_clone">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>

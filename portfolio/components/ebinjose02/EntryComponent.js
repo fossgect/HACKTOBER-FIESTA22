@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/vishakh.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/ebinjose02.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Vishakh") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Ebin Jose") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,11 +44,11 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        HEY I am Vishakh. I am currently persuing computer science at GEC Thrissur, I fell in love with coding in my laptop
-                        hoarding up my emotions and corroding my brain. Late nights are like ealy mornings for me.
+                        By drawing on a fundamental description of cause and effect found in Einsteins theory of special relativity, 
+                        researchers from Imperial College London have come up with a way to help AIs make better guesses too.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, python, flask, java, c
+                        Tech Stacks : HTML, CSS, Python, Figma
                     </p>
                 </div>
             </div>
@@ -64,18 +64,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Hacktober Fiesta</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                An open source project conducted as part of hacktober-fest.
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/HACKTOBER-FIESTA22.git">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -87,18 +87,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>fl2do list</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                A to-do list with a twist
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/fl2do.git">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -110,18 +110,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Pygame</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                a car accident avoiding game created with pygame
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Vishakh2012/HACKTOBER-FIESTA22/blob/main/pygame/gameit/vishakh.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
