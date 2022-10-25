@@ -22,6 +22,7 @@ from gameit.mimithamg import halloween
 from gameit.jithinpkumar import ArmyBase
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
+from gameit.AadeshPS import game1
 
 
  
@@ -43,13 +44,11 @@ def main():
       "Ash-394": pongGame,
       "vishakh": car_game,
       "ebinjose02":Snake,
- 
-
       "mimithamg":halloween,
- 
       "jithinpkumar":ArmyBase,
       "Prometheus2k":Game2048,
       "ashitha-18":SudokoGame,
+      "AadeshPS":game1,
     }
  
 
