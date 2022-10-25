@@ -208,7 +208,7 @@ def halloween():
        player(playerX,playerY)
        show_score(textX,testY)
 
-       #applying changes
+       #applying changes 
        pygame.display.update()
 
 
