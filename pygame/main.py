@@ -1,5 +1,5 @@
-from gameit.example import exampleGame
 from gameit.aqeelshamz import treasureHunt
+from gameit.urmila import HuntingBirds
 from gameit.aayahda import snakesGame
 from gameit.MohdShibin import snakeGame
 from gameit.AditiAjithkumar import SnakeGame
@@ -8,7 +8,23 @@ from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
+from gameit.AnnMol_2002 import sudoku
+from gameit.example import exampleGame
+from gameit.ash394 import pongGame
+from gameit.vishakh import car_game
+from gameit.ebinjose02 import Snake
 
+from gameit.jithinpkumar import ArmyBase
+from gameit.Prometheus2k import Game2048
+from gameit.ashitha_18 import SudokoGame
+
+from gameit.mimithamg import halloween
+from gameit.jithinpkumar import ArmyBase
+from gameit.Prometheus2k import Game2048
+from gameit.ashitha_18 import SudokoGame
+
+
+ 
 
 def main():
     games = {
@@ -21,14 +37,31 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
-      "AditiAjithkumar":SnakeGame
+      "AditiAjithkumar":SnakeGame,
+      "urmila":HuntingBirds,
+      'AnnMol_2002':sudoku,
+      "Ash-394": pongGame,
+      "vishakh": car_game,
+      "ebinjose02":Snake,
+ 
+
+      "mimithamg":halloween,
+ 
+      "jithinpkumar":ArmyBase,
+      "Prometheus2k":Game2048,
+      "ashitha-18":SudokoGame,
     }
+ 
+
+
+ 
+
     while True:
         username = input("Enter github username:\n")
         try:
             games[username]()
             print("Happy Gaming")
-        except:
+        except KeyError:
             print("Username not found!!.")
 
 
