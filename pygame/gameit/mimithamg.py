@@ -19,7 +19,6 @@
 
 
 #importing library functions
-
 import pygame
 import random
 import math
