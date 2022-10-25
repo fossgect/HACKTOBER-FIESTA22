@@ -13,9 +13,18 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
+
 from gameit.jithinpkumar import ArmyBase
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
+
+from gameit.mimithamg import halloween
+from gameit.jithinpkumar import ArmyBase
+from gameit.Prometheus2k import Game2048
+from gameit.ashitha_18 import SudokoGame
+
+
+ 
 
 def main():
     games = {
@@ -34,10 +43,18 @@ def main():
       "Ash-394": pongGame,
       "vishakh": car_game,
       "ebinjose02":Snake,
+ 
+
+      "mimithamg":halloween,
+ 
       "jithinpkumar":ArmyBase,
       "Prometheus2k":Game2048,
       "ashitha-18":SudokoGame,
     }
+ 
+
+
+ 
 
     while True:
         username = input("Enter github username:\n")
