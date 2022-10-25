@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/urmila.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/ashitha-18.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Urmila") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Ashitha P R") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,11 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        I am 2nd year computer science and engineering student of Government Engineering College,Thrissur.
-                        I am interested in Data Science.
+                        BTech CSE undergrad | budding front-end web developer | web3 enthusiast
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, Java, Python, C
+                        Tech Stacks : HTML, CSS, JavaScript, Python, Java, C, Solidity
                     </p>
                 </div>
             </div>
@@ -64,18 +63,20 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Hunting Birds</Text>
+                            <Text b>Text Analyzer</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Hunting Birds is a simple game created using python. The aim of th game is to help the hunter to hunt birds.
+                            A simple web app that analyzes the words of an input string and gives
+                            count of characters, words, digits, vowels, consonants etc present in 
+                            the string.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/urmila-13/HACKTOBER-FIESTA22/blob/main/pygame/gameit/urmila.py">
+                                <Link href="https://github.com/ashitha-18/text-analyzer">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -87,18 +88,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Personal Assistant - ECHO</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Build a personal assistant using Python as a team of three.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/ashitha-18/ECHO---Personal-Assistant">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -110,18 +111,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Portfolio Website - Artist</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A portfolio website for the artist in me.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/ashitha-18/Portfolio-Artist">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>

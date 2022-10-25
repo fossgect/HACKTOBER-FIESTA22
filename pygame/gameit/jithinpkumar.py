@@ -184,4 +184,3 @@ def ArmyBase():
              #apply changes
             pygame.display.update()
 
-
