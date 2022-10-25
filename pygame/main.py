@@ -13,6 +13,7 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
+from gameit.jithinpkumar import ArmyBase
 
 from gameit.jithinpkumar import ArmyBase
 from gameit.Prometheus2k import Game2048
@@ -43,6 +44,10 @@ def main():
       "Ash-394": pongGame,
       "vishakh": car_game,
       "ebinjose02":Snake,
+<<<<<<< HEAD
+      "jithinpkumar":ArmyBase
+}
+=======
  
 
       "mimithamg":halloween,
@@ -55,6 +60,7 @@ def main():
 
 
  
+>>>>>>> 6633fca75c0897ca70fb4422d9b822d7c3972070
 
     while True:
         username = input("Enter github username:\n")
