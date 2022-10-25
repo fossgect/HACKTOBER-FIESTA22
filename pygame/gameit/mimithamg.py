@@ -40,7 +40,7 @@ def halloween():
 
     #setting player (ghost is our player)
     playerImg=pygame.image.load('ghost.png')
-=======
+
     
     playerImg=pygame.image.load('static/mimithamg/ghost.png')
     playerX=370
@@ -68,7 +68,7 @@ def halloween():
 
     #setting the shooting 
     bulletImg=pygame.image.load('fire.png')
-=======
+
     
     bulletImg=pygame.image.load('static/mimithamg/fire.png')
 
