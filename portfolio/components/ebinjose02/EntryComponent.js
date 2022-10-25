@@ -44,8 +44,7 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        By drawing on a fundamental description of cause and effect found in Einsteins theory of special relativity, 
-                        researchers from Imperial College London have come up with a way to help AIs make better guesses too.
+                        CSE Undergraduate | GEC Thrissur
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
                         Tech Stacks : HTML, CSS, Python, Figma
@@ -64,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Snake Game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A simple snake game.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/ebinjose02/HACKTOBER-FIESTA22/blob/main/pygame/gameit/ebinjose02.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
