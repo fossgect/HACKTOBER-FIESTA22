@@ -63,20 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Text Analyzer</Text>
+                            <Text b>Sudoko Game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                            A simple web app that analyzes the words of an input string and gives
-                            count of characters, words, digits, vowels, consonants etc present in 
-                            the string.
+                                Implemented a basic sudoko game with 3 different sudoko puzzles using Pygame.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/ashitha-18/text-analyzer">
+                                <Link href="https://github.com/ashitha-18/Sudoko-Game">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -111,18 +109,20 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Portfolio Website - Artist</Text>
+                            <Text b>Text Analyzer</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                A portfolio website for the artist in me.
+                                A simple web app that analyzes the words of an input string and gives
+                            count of characters, words, digits, vowels, consonants etc present in 
+                            the string.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/ashitha-18/Portfolio-Artist">
+                                <Link href="https://github.com/ashitha-18/text-analyzer">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
