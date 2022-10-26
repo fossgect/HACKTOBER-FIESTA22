@@ -23,6 +23,7 @@ from gameit.ashitha_18 import SudokoGame
 from gameit.JP_GECT import sgame
 from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
+from gameit.nived_krish44 import snake
 
 
 def main():
@@ -50,6 +51,7 @@ def main():
       "JP_GECT":sgame,
       "AadeshPS":game1,
       "ezbonpj":bounce,
+      "nived_krish44":snake,
     }
 
 
