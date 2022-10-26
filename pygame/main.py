@@ -42,7 +42,7 @@ def main():
       "Ash-394": pongGame,
       "vishakh": car_game,
       "ebinjose02":Snake,
-      "jithinpkumar":ArmyBase
+      "jithinpkumar":ArmyBase,
       "mimithamg":halloween,
       "jithinpkumar":ArmyBase,
       "Prometheus2k":Game2048,
