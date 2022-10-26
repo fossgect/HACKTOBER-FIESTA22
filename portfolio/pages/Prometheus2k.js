@@ -1,10 +1,9 @@
-import EntryComponent from "../components/Templete/EntryComponent";
-
+import EntryComponent from "../components/Prometheus2k/EntryComponent";
 
 export default function Home() {
   return (
     <div>
       <EntryComponent />
     </div>
-  )
+  );
 }
