@@ -1,3 +1,17 @@
+#SNAKE GAME
+#CREATED BY JOSEPH PAULY
+
+#AIM OF GAME
+#TO MAKE YOUR SNAKE AS BIG AS POSSIBLE!
+
+#HOW TO PLAY
+#USE THE ARROW KEYS TO MOVE THE SNAKE 
+#COLLECT AS MANY FOOD AS POSSIBLE  
+#TRY NOT TO COLLIDE
+
+#-----------------------------------------------------------------
+
+#importing libraries
 import pygame
 import random
 def sgame():
@@ -15,7 +29,7 @@ def sgame():
     screen_height = 600
     gameWindow = pygame.display.set_mode((screen_width, screen_height))
 
-    # Game Title
+    # To display game caption
     pygame.display.set_caption("SNAKE GAME")
     pygame.display.update()
     clock = pygame.time.Clock()
@@ -30,7 +44,7 @@ def sgame():
         for x,y in snk_list:
             pygame.draw.rect(gameWindow, color, [x, y, snake_size, snake_size])
 
-    # Game Loop
+    # main game Loop
     def gameloop():
         exit_game = False
         game_over = False
@@ -46,7 +60,7 @@ def sgame():
         score = 0
         init_velocity = 4
         snake_size = 30
-        fps = 60   # fps = frames per second
+        fps = 60  
         while not exit_game:
             if game_over:
                 gameWindow.fill(white)
@@ -112,7 +126,7 @@ def sgame():
                     game_over = True
                 plot_snake(gameWindow, black, snk_list, snake_size)
             pygame.display.update()
-            clock.tick(fps)
+            clock.tick(fps) #fps=frames per second
         pygame.quit()
         quit()
     gameloop()
