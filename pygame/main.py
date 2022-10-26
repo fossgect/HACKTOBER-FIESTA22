@@ -20,6 +20,7 @@ from gameit.mimithamg import halloween
 from gameit.jithinpkumar import ArmyBase
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
+from gameit.JP_GECT import sgame
 from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
 
@@ -46,6 +47,7 @@ def main():
       "jithinpkumar":ArmyBase,
       "Prometheus2k":Game2048,
       "ashitha-18":SudokoGame,
+      "JP_GECT":sgame,
       "AadeshPS":game1,
       "ezbonpj":bounce,
     }
