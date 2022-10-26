@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 export default function EntryComponent() {
-  const [txt, setTxt] = useState("Hey I'm Shone Stalin"); // Change X to Your Full Name
+  const [txt, setTxt] = useState("Hey I'm Shone"); // Change X to Your Full Name
 
   var i = 0;
   var speed = 100;
