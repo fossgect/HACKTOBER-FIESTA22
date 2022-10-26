@@ -1,15 +1,17 @@
-# importing libraries
+#SnakeGame 
+#Feeding the snake is the task
+#Eat the food and continue growing but dont hit the walls or it's own tail
+#Each food it take would give you ten points
+# Enjoy and play the game
 import pygame
 import time
 import random
  
 snake_speed = 15
- 
-# Window size
 window_x = 720
 window_y = 480
  
-# defining colors
+
 black = pygame.Color(0, 0, 0)
 white = pygame.Color(255, 255, 255)
 red = pygame.Color(255, 0, 0)
