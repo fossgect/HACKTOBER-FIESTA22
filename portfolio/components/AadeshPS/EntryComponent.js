@@ -47,7 +47,7 @@ export default function EntryComponent(){
                        Nothing so special about me,but sure of a fact that i can manage a lot of things in one go.I can cordinate and i will do my best to complete that
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS,python,blender
+                        Tech Stacks : HTML, CSS,python,blender,c
                     </p>
                 </div>
             </div>
