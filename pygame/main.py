@@ -24,6 +24,8 @@ from gameit.JP_GECT import sgame
 from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
 from gameit.ridin2002 import webshooters
+from gameit.taslimmuhammed import PlayerPro
+from gameit.nived_krish44 import snake
 
 
 def main():
@@ -49,9 +51,12 @@ def main():
       "Prometheus2k":Game2048,
       "ashitha-18":SudokoGame,
       "JP_GECT":sgame,
+      "taslimmuhammed":PlayerPro,
       "AadeshPS":game1,
       "ezbonpj":bounce,
       "ridin2002":webshooters,
+      "nived_krish44":snake,
+
     }
 
 
