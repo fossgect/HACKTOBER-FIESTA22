@@ -1,19 +1,36 @@
+#Apple Shooting
+#Created by Anagha Jayan
+
+
+#Rules of the game:
+#the objective of the game is to help the archer to shoot apples using his bow and arrows.
+#Birds will be moving randomly..use right and left arrow key to move the hunter and use up arrow key to shoot an arrow
+#if arrow hit the apple, score will be incremented 
+#if any of apple reaches near hunter game will be over
+
+#importing libraries
 import pygame
 import random
 import math
 def AppleShooting():
+     # initialize the app
     pygame.init()
+    # set window size
     screen=pygame.display.set_mode((800,600))
+    #set window title
     pygame.display.set_caption("apple shooting")
+     #set window icon
     icon=pygame.image.load('icon.png')
     pygame.display.set_icon(icon)
 
+    #archer
     playerimg=pygame.image.load('archer.png')
+    #initial position of archer
     playerx=370
     playery=480
     playerxchange=0
 
-
+    #apple
     enemyimg=[]
     enemyx=[]
     enemyy=[]
@@ -29,43 +46,52 @@ def AppleShooting():
         enemyxchange.append(0.1)
         enemyychange.append(30)
     
+    #arrow
     bulletimg=pygame.image.load('arrow.png')
     bulletx=0
     bullety=480
     bulletxchange=0
     bulletychange=0.5
+    # arrowstate=Ready - You can't see the arrow on the screen
+    # arrowstate=Fire - The arrow is currently moving
     global bulletstate
     bulletstate="ready"
 
-
+    #score  
     score=0
     font=pygame.font.Font('freesansbold.ttf',32)
     textx=10
     texty=10
 
+    #Game over
     overfont=pygame.font.Font('freesansbold.ttf',64)
 
+     #function to display score on screen
     def showscore(x,y):
         scores=font.render("score :"+str(score),True,(255,255,255))
         screen.blit(scores,(x,y))
-
+    
+     #fuction to display Game Over on screen
     def gameover():
         over=overfont.render("GAME OVER",True,(255,255,255))
         screen.blit(over,(200,250))
 
-
+     #function to display archer
     def player(x,y):
         screen.blit(playerimg,(x,y))
 
+    #function to display apple
     def enemy(x,y,i):
         screen.blit(enemyimg[i],(x,y))
 
+     #function to show arrow
     def firebullet(x,y):
         global bulletstate
         bulletstate="fire"
         screen.blit(bulletimg,(x+16,y+10))
 
 
+     #function to check wheather arrow hit an apple
     def collision(enemyx,enemyy,bulletx,bullety):
         distance=math.sqrt((math.pow(enemyx-bulletx,2))+(math.pow(enemyy-bullety,2)))
         if distance<27:
@@ -73,6 +99,7 @@ def AppleShooting():
         else:
             return False
 
+    #Game loop
     running=True
     while running:
         screen.fill((0,0,0))
@@ -81,15 +108,21 @@ def AppleShooting():
             if event.type==pygame.QUIT:
                 running=False
 
+              #if keystroke is pressed check wheather its right,left or up
             if event.type==pygame.KEYDOWN:
+                #if left arrow key is pressed archer move towards left
                 if event.key==pygame.K_LEFT:
                     print("left")
                     playerxchange=-0.5
+                #if right arrow key is pressed archer move towards right
                 if event.key==pygame.K_RIGHT:
                     print("right")
                     playerxchange=0.5
+                 #if up arrow key is pressed archer shoot an arrow
                 if event.key==pygame.K_UP:
+                    
                     if bulletstate=="ready":
+                         #get the current x coordinate of the archer
                         bulletx=playerx
                         firebullet(bulletx,bullety)
                 
@@ -100,13 +133,14 @@ def AppleShooting():
             
         
         playerx+=playerxchange
-
+        
+        #restricting movement of hunter outside of the game window
         if playerx<=0:
             playerx=0
         if playerx>=736:
             playerx=736
 
-    
+        #apple movement
         for i in range(numofenemy):
 
             if enemyy[i]>=440:
@@ -125,6 +159,7 @@ def AppleShooting():
                 enemyy[i]+=enemyychange[i]
 
 
+             #collision
             col=collision(enemyx[i],enemyy[i],bulletx,bullety)
             if col:
                 bullety=480
@@ -136,6 +171,7 @@ def AppleShooting():
 
             enemy(enemyx[i],enemyy[i],i)
 
+             # arrow movement
         if bullety<=0:
             bullety=480
             bulletstate="ready"
@@ -148,4 +184,5 @@ def AppleShooting():
     
         player(playerx,playery)
         showscore(textx,texty)
+        #apply changes
 `       pygame.display.update()`
