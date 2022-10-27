@@ -23,6 +23,7 @@ from gameit.ashitha_18 import SudokoGame
 from gameit.JP_GECT import sgame
 from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
+from gameit.taslimmuhammed import jumpManPro
 
 
 def main():
@@ -48,6 +49,7 @@ def main():
       "Prometheus2k":Game2048,
       "ashitha-18":SudokoGame,
       "JP_GECT":sgame,
+      "taslimmuhammed":jumpManPro,
       "AadeshPS":game1,
       "ezbonpj":bounce,
     }
