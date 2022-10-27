@@ -25,6 +25,7 @@ from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
+from gameit.muhammed770 import mazeGame
 from gameit.AnaghaJn21 import AppleShooting
 
 
@@ -56,6 +57,7 @@ def main():
       "ezbonpj":bounce,
       "nived_krish44":snake,
       "AnaghaJn21":AppleShooting,
+      "muhammed":mazeGame,
     }
 
 
