@@ -13,6 +13,9 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
+from gameit.Prometheus2k import Game2048
+from gameit.ashitha_18 import SudokoGame
+from gameit.azmisal import playAzmi
 from gameit.jithinpkumar import ArmyBase
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
@@ -23,10 +26,16 @@ from gameit.ashitha_18 import SudokoGame
 from gameit.JP_GECT import sgame
 from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
+from gameit.ridin2002 import webshooters
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
 from gameit.Devadathan_KS import GameLoop
-
+from gameit.Rishajahan import shooter
+from gameit.sinana import snake
+from gameit.muhammed770 import mazeGame
+from gameit.AnaghaJn21 import AppleShooting
+from gameit.zAiN import hallo
+from gameit.sammyrin import paambu
 
 def main():
     games = {
@@ -45,6 +54,9 @@ def main():
       "Ash-394": pongGame,
       "vishakh": car_game,
       "ebinjose02":Snake,
+      "Prometheus2k":Game2048,
+      "ashitha-18":SudokoGame,
+      "azmisal":playAzmi,
       "jithinpkumar":ArmyBase,
       "mimithamg":halloween,
       "jithinpkumar":ArmyBase,
@@ -54,10 +66,16 @@ def main():
       "taslimmuhammed":PlayerPro,
       "AadeshPS":game1,
       "ezbonpj":bounce,
+      "ridin2002":webshooters,
       "nived_krish44":snake,
+      "Rishajahan":shooter,
+      "sinana":snake
+      "AnaghaJn21":AppleShooting,
+      "zAiN" :hallo,
+      "sammyrin":paambu,
+      "muhammed":mazeGame,
       "Devadathan-KS":GameLoop,
     }
-
 
     while True:
         username = input("Enter github username:\n")

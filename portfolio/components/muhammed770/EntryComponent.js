@@ -1,14 +1,14 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/sushmini.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/muhammed770.jpeg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm sushmini s") // Change X to Your Full Name
-
+    const [txt,setTxt] = useState("Hey I'm muhammed") // Change X to Your Full Name
+//HELLO
     var i = 0;
     var speed = 100;
 
@@ -44,14 +44,14 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Hloo peeps I am Sushmini S, sophomere in Government Engineering College Thrissur.Always fascinated to learn new technologies and wish to contribute.My work is to become better than yesterday so that I can learn something new.
+                       Hey peeps| I am muhammed, 5th semester Computer Science Engineering student 
+                       at Government Engineering College Thrissur. Techie , freelancer.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript
+                        Tech Stacks : Rust, nextJS, web3
                     </p>
                 </div>
             </div>
-
             {/* Project Section */}
             <div className="w-full pb-8">
 
@@ -63,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>PyGame</Text>
+                            <Text b>Space-Invader</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                SnakeGame created by python
+                                MAZE GAME
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/SushminiS>
+                                <Link href="https://github.com/Muhammed770/HACKTOBER-FIESTA22/blob/main/pygame/gameit/muhammed770.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -97,7 +97,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Muhammed770/HACKTOBER-FIESTA22">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -131,6 +131,7 @@ export default function EntryComponent(){
                     
                 </div>
             </div>
+
         </div>
     )
 }
