@@ -1,4 +1,4 @@
-
+# A nostalgic snake game that reminds us about our beautiful childhood!
 import pygame
 import random
 def snake():
