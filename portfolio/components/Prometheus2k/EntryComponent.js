@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 export default function EntryComponent() {
-  const [txt, setTxt] = useState("Hey I'm X"); // Change X to Your Full Name
+  const [txt, setTxt] = useState("Hey I'm Shone"); // Change X to Your Full Name
 
   var i = 0;
   var speed = 100;
@@ -66,16 +66,19 @@ export default function EntryComponent() {
           <Grid sm={12} md={5} className="flex justify-center">
             <Card css={{ width: "330px" }}>
               <Card.Header>
-                <Text b>Project Name</Text>
+                <Text b>2048 Game</Text>
               </Card.Header>
               <Card.Divider />
               <Card.Body css={{ py: "$10" }}>
-                <Text>Project Description</Text>
+                <Text>
+                  This game is developed using pygame and numpy. Those who
+                  reaches the number 2048 wins.
+                </Text>
               </Card.Body>
               <Card.Divider />
               <Card.Footer>
                 <Row justify="flex-end">
-                  <Link href="https://github.com">
+                  <Link href="https://github.com/Prometheus2k/2048-Game">
                     <Button size="sm" light color="primary">
                       Link
                     </Button>
@@ -89,16 +92,20 @@ export default function EntryComponent() {
           <Grid sm={12} md={5} className="flex justify-center">
             <Card css={{ width: "330px" }}>
               <Card.Header>
-                <Text b>Project Name</Text>
+                <Text b>NxtVote</Text>
               </Card.Header>
               <Card.Divider />
               <Card.Body css={{ py: "$10" }}>
-                <Text>Project Description</Text>
+                <Text>
+                  A Blockchain voting system for college elections based on
+                  smart contracts leveraging the power and security of Ethereum
+                  blockchain.
+                </Text>
               </Card.Body>
               <Card.Divider />
               <Card.Footer>
                 <Row justify="flex-end">
-                  <Link href="https://github.com">
+                  <Link href="https://github.com/Prometheus2k/smart-vote">
                     <Button size="sm" light color="primary">
                       Link
                     </Button>
@@ -112,16 +119,18 @@ export default function EntryComponent() {
           <Grid sm={12} md={5} className="flex justify-center">
             <Card css={{ width: "330px" }}>
               <Card.Header>
-                <Text b>Project Name</Text>
+                <Text b>SAE club website</Text>
               </Card.Header>
               <Card.Divider />
               <Card.Body css={{ py: "$10" }}>
-                <Text>Project Description</Text>
+                <Text>
+                  This is a website developed for SAE club of GEC Thrissur.
+                </Text>
               </Card.Body>
               <Card.Divider />
               <Card.Footer>
                 <Row justify="flex-end">
-                  <Link href="https://github.com">
+                  <Link href="https://sae.gectcr.ac.in">
                     <Button size="sm" light color="primary">
                       Link
                     </Button>

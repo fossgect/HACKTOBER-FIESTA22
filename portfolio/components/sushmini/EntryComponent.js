@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/AadeshPS.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/sushmini.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm sushmini s") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                       Nothing so special about me,but sure of a fact that i can manage a lot of things in one go.I can cordinate and i will do my best to complete that
+                        Hloo peeps I am Sushmini S, sophomere in Government Engineering College Thrissur.Always fascinated to learn new technologies and wish to contribute.My work is to become better than yesterday so that I can learn something new.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS,python,blender,c
+                        Tech Stacks : HTML, CSS, JavaScript
                     </p>
                 </div>
             </div>
@@ -63,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Ballon Shooter</Text>
+                            <Text b>Project name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                            The simple plot in this game is that there will be balloons moving all over the screen. The player will have a target like an arrow and with the help of a mouse, the player has to bust those moving ballons. There will be a counter for busted balloons and on busting each moving balloon successfully, the busting score will increase.For the development of the Balloon Shooter Game using Python PyGame, we will use various pygame modules to add different functionalities to the game. We have to code for continuous movement of balloons, a shooting functionality, and updating the score every time the balloon is busted. All these functions can be done using various modules like draw, mouse, render, etc.
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/AadeshPS/HACKTOBER-FIESTA22/blob/main/pygame/gameit/AadeshPS.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -86,7 +86,7 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>PYGAME</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
