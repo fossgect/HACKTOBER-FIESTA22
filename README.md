@@ -172,7 +172,7 @@ Create basic level documentation for your pygame created in ```username.py``` an
 - Inside the pages folder, create a copy of the `index.js` file and rename it as `<your_github_username>.js`
 - Rename your image as `<your_github_username>` and add to the public folder
 - Open ```/components/<your_github_username>/Navbar/Navbar.js```
-- Goto line no:50, replace the image with ```src=/<your_image_file_name>```
+- Goto line no:38, replace the image with ```src=/<your_image_file_name>```
 - Goto `pages/<your_github_username>.js`, replace the Template folder name with `<your_github_username>`
     <br/>
 
