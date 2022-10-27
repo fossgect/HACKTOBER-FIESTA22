@@ -1,6 +1,6 @@
 
 import pygame
-
+# Game by taslim Muhammed moosa
 def jumpManPro():
     pygame.init()
     win = pygame.display.set_mode((500, 500))
