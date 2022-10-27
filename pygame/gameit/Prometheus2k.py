@@ -1,3 +1,13 @@
+# Pygame implementation of 2048 Game
+# Created by Shone Stalin
+
+# The aim is to reach the number 2048
+
+# How to play the game:
+#   ->  Use the arrow keys to merge the numbers 
+#   ->  Can merge in al directions, i.e. up,down,left,right
+
+
 import pygame
 import random
 import numpy as np
