@@ -150,9 +150,9 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-darwin-arm64@12.3.1":
-  "integrity" "sha512-hT/EBGNcu0ITiuWDYU9ur57Oa4LybD5DOQp4f22T6zLfpoBMfBibPtR8XktXmOyFHrL/6FC2p9ojdLZhWhvBHg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.3.1.tgz"
+"@next/swc-win32-x64-msvc@12.3.1":
+  "integrity" "sha512-W1ijvzzg+kPEX6LAc+50EYYSEo0FVu7dmTE+t+DM4iOLqgGHoW9uYSz9wCVdkXOEEMP9xhXfGpcSxsfDucyPkA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.3.1.tgz"
   "version" "12.3.1"
 
 "@nextui-org/react@^1.0.0-beta.10":
@@ -1156,6 +1156,16 @@
   "resolved" "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   "version" "1.1.4"
 
+"component-run@^0.0.0":
+  "integrity" "sha512-cYDFx9rBw6sTyCr4ax3BI4H0vGnLnFBNLU/ZvGvSZkBQNjD+m9fVrwe+Rv/Ta9dWBf3MoLwg18xYIQgG+sVJbg=="
+  "resolved" "https://registry.npmjs.org/component-run/-/component-run-0.0.0.tgz"
+  "version" "0.0.0"
+
+"components@^0.1.0":
+  "integrity" "sha512-4xKUO3dL9LBs8WiOKy2kvLfnwKZLps9xDT5cFS0GL4UiXrr/dNUYus7Uf1bRPG66cUpEmwFAWVOlE9cxQgG+QA=="
+  "resolved" "https://registry.npmjs.org/components/-/components-0.1.0.tgz"
+  "version" "0.1.0"
+
 "concat-map@0.0.1":
   "integrity" "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg=="
   "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
@@ -1614,11 +1624,6 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
-"fsevents@~2.3.2":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
-
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -2070,7 +2075,7 @@
   "resolved" "https://registry.npmjs.org/next-themes/-/next-themes-0.2.1.tgz"
   "version" "0.2.1"
 
-"next@*", "next@12.3.1":
+"next@*", "next@^12.3.1":
   "integrity" "sha512-l7bvmSeIwX5lp07WtIiP9u2ytZMv7jIeB8iacR28PuUEFG5j0HGAPnMqyG5kbZNBG2H7tRsrQ4HCjuMOPnANZw=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.3.1.tgz"
   "version" "12.3.1"
@@ -2347,7 +2352,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@*", "react-dom@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>=16.8.0", "react-dom@18.2.0":
+"react-dom@*", "react-dom@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@^18.2.0", "react-dom@>=16.8.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -2360,7 +2365,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.3.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.0", "react@18.2.0":
+"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.3.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
