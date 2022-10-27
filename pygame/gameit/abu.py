@@ -1,10 +1,20 @@
+# Treasure Hunt
+# Created by abu
+
+# Will you be able to find the treasure?
+
+# How to play:
+# * Use keyboard arrow keys to move the circle
+# * Try not to hit the blocks
+# * Play the game and grab the treasure
+
 import pygame
 
 def treasureHunt():
     pygame.init()
     win = pygame.display.set_mode((500, 500))
 
-    pygame.display.set_caption("Treasure Hunt by Shiyas")
+    pygame.display.set_caption("Treasure Hunt by abu")
 
     x = 25
     y = 25
