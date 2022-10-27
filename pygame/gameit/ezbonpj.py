@@ -1,3 +1,11 @@
+#bounce ball game 
+#created by ezbonpj
+#how to play 
+#->use arrow wkeys to move left and right 
+#->bounce back the ball with the help of the base plate
+#->you will get a score each time you bounce the ball failure of which you will lose your score 
+
+
 import pygame
 def bounce():
 
