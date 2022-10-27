@@ -8,6 +8,7 @@ from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
+from gameit.AkashKMathew import crash
 from gameit.AnnMol_2002 import sudoku
 from gameit.example import exampleGame
 from gameit.ash394 import pongGame
@@ -47,6 +48,7 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
+      "AkashKMathew": crash,
       "AditiAjithkumar":SnakeGame,
       "urmila":HuntingBirds,
       'AnnMol_2002':sudoku,
@@ -68,7 +70,7 @@ def main():
       "ridin2002":webshooters,
       "nived_krish44":snake,
       "Rishajahan":shooter,
-      "sinana":snake
+      "sinana":snake,
       "AnaghaJn21":AppleShooting,
       "zAiN" :hallo,
       "sammyrin":paambu,
