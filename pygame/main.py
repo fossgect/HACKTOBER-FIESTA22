@@ -5,6 +5,7 @@ from gameit.MohdShibin import snakeGame
 from gameit.sreni import Tic_Tac_Toe
 from gameit.abhijithram import abhiGame
 from gameit.kmSidharthM import Space_Invader
+from gameit.anena import paambu
 
 
 def main():
@@ -16,6 +17,7 @@ def main():
       "sreni":Tic_Tac_Toe, 
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
+      "anena":paambu,
     }
 
     while True:
