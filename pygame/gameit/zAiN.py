@@ -3,7 +3,7 @@
 #Enjoy!!!!!
 
 
-#it is a funny game in this halloween 
+#it is a funny game in this halloween
 #the user have to kill all the pumpkins before gameover with the help of a ghost
 
 
@@ -17,6 +17,8 @@
 
 #happy gaming
 #all the best for the game
+#Enjoy!!!!!
+#Enjoy!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 #importing library functions
@@ -219,4 +221,11 @@ def hallo():
 
        #applying changes 
        pygame.display.update()
+
+
+
+
+#that's it!!!!!!!!!!
+#Hurrayyyyyyyyy!!!!!!!!
+#Wagmiiiiiiiiiiiiiiiiiiiiiiiiiii
 
