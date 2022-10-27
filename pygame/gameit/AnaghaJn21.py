@@ -4,9 +4,9 @@
 
 #Rules of the game:
 #the objective of the game is to help the archer to shoot apples using his bow and arrows.
-#Birds will be moving randomly..use right and left arrow key to move the hunter and use up arrow key to shoot an arrow
+#Apple will be moving randomly..use right and left arrow key to move the hunter and use up arrow key to shoot an arrow
 #if arrow hit the apple, score will be incremented 
-#if any of apple reaches near hunter game will be over
+#if any of apple reaches near archer game will be over
 
 #importing libraries
 import pygame
