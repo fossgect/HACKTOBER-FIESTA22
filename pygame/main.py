@@ -30,6 +30,7 @@ from gameit.Rishajahan import shooter
 from gameit.sinana import snake
 from gameit.muhammed770 import mazeGame
 from gameit.AnaghaJn21 import AppleShooting
+from gameit.zAiN import hallo
 from gameit.sammyrin import paambu
 
 def main():
@@ -63,6 +64,7 @@ def main():
       "Rishajahan":shooter,
       "sinana":snake
       "AnaghaJn21":AppleShooting,
+      "zAiN" :hallo,
       "sammyrin":paambu,
       "muhammed":mazeGame,
     }
