@@ -8,7 +8,7 @@ import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 export default function EntryComponent(){
 
     const [txt,setTxt] = useState("Hey I'm muhammed") // Change X to Your Full Name
-
+//HELLO
     var i = 0;
     var speed = 100;
 
