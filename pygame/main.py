@@ -26,6 +26,7 @@ from gameit.ezbonpj import bounce
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
 from gameit.AnaghaJn21 import AppleShooting
+from gameit.Haze import Tet
 
 
 def main():
@@ -55,7 +56,9 @@ def main():
       "AadeshPS":game1,
       "ezbonpj":bounce,
       "nived_krish44":snake,
+      "Haze":Tet,
       "AnaghaJn21":AppleShooting,
+      
     }
 
 
