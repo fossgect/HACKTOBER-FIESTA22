@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+#
+import pygame 
+
+=======
 #bounce ball game 
 #created by ezbonpj
 #how to play 
@@ -7,6 +12,7 @@
 
 
 import pygame
+>>>>>>> ee186ee203030f9fa0920bae2f72d908809cb996
 def bounce():
 
     BLACK = (0,0,0)
