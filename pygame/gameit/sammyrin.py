@@ -1,8 +1,7 @@
-# A nostalgic snake game that reminds us about our beautiful childhood!
 import pygame
 import random
-def snake():
-    # initializing pygame
+# initializing pygame
+def paambu():
     pygame.init()
 
     # Colors
@@ -24,7 +23,6 @@ def snake():
     def text_screen(text, color, x, y):
         screen_text = font.render(text, True, color)
         gameWindow.blit(screen_text, [x,y])
-
 
     def plot_snake(gameWindow, color, snk_list, snake_size):
         for x,y in snk_list:
@@ -116,3 +114,4 @@ def snake():
         pygame.quit()
         quit()
     gameloop()
+

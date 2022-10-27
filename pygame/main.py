@@ -23,9 +23,13 @@ from gameit.ashitha_18 import SudokoGame
 from gameit.JP_GECT import sgame
 from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
+from gameit.ridin2002 import webshooters
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
 from gameit.sinana import snake
+from gameit.muhammed770 import mazeGame
+from gameit.AnaghaJn21 import AppleShooting
+from gameit.sammyrin import paambu
 
 def main():
     games = {
@@ -53,8 +57,12 @@ def main():
       "taslimmuhammed":PlayerPro,
       "AadeshPS":game1,
       "ezbonpj":bounce,
+      "ridin2002":webshooters,
       "nived_krish44":snake,
       "sinana":snake
+      "AnaghaJn21":AppleShooting,
+      "sammyrin":paambu,
+      "muhammed":mazeGame,
     }
 
 
