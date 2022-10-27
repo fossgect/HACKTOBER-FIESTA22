@@ -61,7 +61,7 @@ def jumpManPro():
 
         if not keys[pygame.K_SPACE] and x >= 400 and x <= 440: #? condition for character when it reached at the last block of the game
             y = 430
-            print("You won the game !")
+            print("Congartulations You won the game !")
             pygame.quit()
 
         if y > 480: #? condition for character if doesnt't reach the last block or it fall from the block
