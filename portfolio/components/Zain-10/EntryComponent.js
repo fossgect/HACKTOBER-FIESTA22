@@ -64,12 +64,19 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Hallo</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                            #it is a funny game in this halloween
+                            #the user have to kill all the pumpkins before gameover with the help of a ghost
+
+                            #rules of game
+                            #user can access the movements of ghost by left and right arrow keys
+                            #user can shoot the pumpkin by using space key
+                            #score will be displayed on the left top corner
+                            #if any pumpkin reaches the ground the will end
                             </Text>
                         </Card.Body>
                         <Card.Divider />
