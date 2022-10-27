@@ -25,6 +25,7 @@ from gameit.AadeshPS import game1
 from gameit.ezbonpj import bounce
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
+from gameit.Devadathan_KS import GameLoop
 
 
 def main():
@@ -54,6 +55,7 @@ def main():
       "AadeshPS":game1,
       "ezbonpj":bounce,
       "nived_krish44":snake,
+      "Devadathan-KS":GameLoop,
     }
 
 
