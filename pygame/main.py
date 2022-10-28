@@ -9,6 +9,7 @@ from gameit.abhijithram import abhiGame
 from gameit.msmuhsin import upAndDown
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
+from gameit.AkashKMathew import crash
 from gameit.AnnMol_2002 import sudoku
 from gameit.example import exampleGame
 from gameit.ash394 import pongGame
@@ -52,6 +53,7 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
+      "AkashKMathew": crash,
       "AditiAjithkumar":SnakeGame,
       "urmila":HuntingBirds,
       'AnnMol_2002':sudoku,
