@@ -1,24 +1,28 @@
 import pygame, sys, random
 
+
+#Everything the ball does is controlled by this function
 def ball_animation():
 	global ball_speed_x, ball_speed_y, player_score, opponent_score, score_time
 	
 	ball.x += ball_speed_x
 	ball.y += ball_speed_y
 
+	#Ball hits the walls
 	if ball.top <= 0 or ball.bottom >= screen_height:
 		ball_speed_y *= -1
 		
-	# Player Score
+	# Player Scores
 	if ball.left <= 0: 
 		score_time = pygame.time.get_ticks()
 		player_score += 1
 		
-	# Opponent Score
+	# Opponent Scores
 	if ball.right >= screen_width:
 		score_time = pygame.time.get_ticks()
 		opponent_score += 1
-		
+	
+	#Player hits the ball
 	if ball.colliderect(player) and ball_speed_x > 0:
 		if abs(ball.right - player.left) < 10:
 			ball_speed_x *= -1	
@@ -27,6 +31,7 @@ def ball_animation():
 		elif abs(ball.top - player.bottom) < 10 and ball_speed_y < 0:
 			ball_speed_y *= -1
 
+	#Opponent hits the ball
 	if ball.colliderect(opponent) and ball_speed_x < 0:
 		if abs(ball.left - opponent.right) < 10:
 			ball_speed_x *= -1	
@@ -36,6 +41,7 @@ def ball_animation():
 			ball_speed_y *= -1
 		
 
+#Player movements and constraints
 def player_animation():
 	player.y += player_speed
 
@@ -44,6 +50,8 @@ def player_animation():
 	if player.bottom >= screen_height:
 		player.bottom = screen_height
 
+
+#Opponent behaviour
 def opponent_ai():
 	if opponent.top < ball.y:
 		opponent.y += opponent_speed
@@ -55,6 +63,8 @@ def opponent_ai():
 	if opponent.bottom >= screen_height:
 		opponent.bottom = screen_height
 
+
+#Ball's behaviour when starting from 0 velocity
 def ball_start():
 	global ball_speed_x, ball_speed_y, ball_moving, score_time
 
@@ -111,6 +121,8 @@ player_score = 0
 opponent_score = 0
 basic_font = pygame.font.Font('freesansbold.ttf', 32)
 
+
+#Main game loop
 def GameLoop():
 
 	global player_speed

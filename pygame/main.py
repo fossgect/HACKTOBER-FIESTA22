@@ -29,6 +29,7 @@ from gameit.ezbonpj import bounce
 from gameit.ridin2002 import webshooters
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
+from gameit.Devadathan_KS import GameLoop
 from gameit.Rishajahan import shooter
 from gameit.sinana import snake
 from gameit.muhammed770 import mazeGame
@@ -73,6 +74,7 @@ def main():
       "zAiN" :hallo,
       "sammyrin":paambu,
       "muhammed":mazeGame,
+      "Devadathan-KS":GameLoop,
     }
 
     while True:
