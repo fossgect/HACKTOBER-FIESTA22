@@ -39,6 +39,7 @@ from gameit.AnaghaJn21 import AppleShooting
 from gameit.Haze import Tet
 from gameit.zAiN import hallo
 from gameit.sammyrin import paambu
+from gameit.ARJ18 import Squareventures
 
 
 def main():
@@ -83,6 +84,7 @@ def main():
       "sammyrin":paambu,
       "muhammed":mazeGame,
       "Devadathan-KS":GameLoop,
+      "ARJ18":Squareventures
     }
 
     while True:
