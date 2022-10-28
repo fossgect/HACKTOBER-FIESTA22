@@ -6,6 +6,7 @@ from gameit.AditiAjithkumar import SnakeGame
 from gameit.sreni import Tic_Tac_Toe
 from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
+from gameit.msmuhsin import upAndDown
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
 from gameit.AnnMol_2002 import sudoku
@@ -39,6 +40,7 @@ from gameit.sammyrin import paambu
 
 def main():
     games = {
+      "msmuhsin": upAndDown,
       "aayahda": snakesGame,
       "example": exampleGame, 
       "aqeelshamz": treasureHunt, 
