@@ -1,3 +1,24 @@
+#CRASH GAME
+
+#Run the main.py from pygame directory to load the assets properly
+
+#How to play : 
+
+#Click the play button or press the spacebar to start the game.
+
+#Press the spacebar to prevent the bird from falling.
+
+#Avoid hitting the incoming pillars. So go through the gap between them by pressing the spacebar.
+
+#Score will be displayed on top of the screen.
+
+
+#HAPPY GAMING!!!
+
+
+
+
+
 import random
 import sys
 import pygame
