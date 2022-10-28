@@ -149,3 +149,4 @@ def AppleShooting():
         player(playerx,playery)
         showscore(textx,texty)
         pygame.display.update()
+
