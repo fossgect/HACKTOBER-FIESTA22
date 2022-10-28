@@ -40,6 +40,7 @@ from gameit.Haze import Tet
 from gameit.zAiN import hallo
 from gameit.sammyrin import paambu
 from gameit.ARJ18 import Squareventures
+from gameit.BhargavM import bmsnake
 
 
 def main():
@@ -84,7 +85,8 @@ def main():
       "sammyrin":paambu,
       "muhammed":mazeGame,
       "Devadathan-KS":GameLoop,
-      "ARJ18":Squareventures
+      "ARJ18":Squareventures,
+      "BhargavM":bmsnake
     }
 
     while True:
@@ -97,4 +99,4 @@ def main():
 
 
 if __name__ == "__main__":
-  main()
+    main()
