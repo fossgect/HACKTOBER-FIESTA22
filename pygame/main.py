@@ -37,6 +37,7 @@ from gameit.muhammed770 import mazeGame
 from gameit.AnaghaJn21 import AppleShooting
 from gameit.zAiN import hallo
 from gameit.sammyrin import paambu
+from gameit.ARJ18 import Squareventures
 
 def main():
     games = {
@@ -77,6 +78,7 @@ def main():
       "sammyrin":paambu,
       "muhammed":mazeGame,
       "Devadathan-KS":GameLoop,
+      "ARJ18":Squareventures
     }
 
     while True:
