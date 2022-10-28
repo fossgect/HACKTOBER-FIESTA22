@@ -6,6 +6,7 @@ from gameit.AditiAjithkumar import SnakeGame
 from gameit.sreni import Tic_Tac_Toe
 from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
+from gameit.msmuhsin import upAndDown
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
 from gameit.AnnMol_2002 import sudoku
@@ -29,15 +30,19 @@ from gameit.ezbonpj import bounce
 from gameit.ridin2002 import webshooters
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
+from gameit.Devadathan_KS import GameLoop
 from gameit.Rishajahan import shooter
 from gameit.sinana import snake
 from gameit.muhammed770 import mazeGame
 from gameit.AnaghaJn21 import AppleShooting
+from gameit.Haze import Tet
 from gameit.zAiN import hallo
 from gameit.sammyrin import paambu
 
+
 def main():
     games = {
+      "msmuhsin": upAndDown,
       "aayahda": snakesGame,
       "example": exampleGame, 
       "aqeelshamz": treasureHunt, 
@@ -67,12 +72,15 @@ def main():
       "ezbonpj":bounce,
       "ridin2002":webshooters,
       "nived_krish44":snake,
+      "Haze":Tet,
+      "AnaghaJn21":AppleShooting,
       "Rishajahan":shooter,
-      "sinana":snake
+      "sinana":snake,
       "AnaghaJn21":AppleShooting,
       "zAiN" :hallo,
       "sammyrin":paambu,
       "muhammed":mazeGame,
+      "Devadathan-KS":GameLoop,
     }
 
     while True:
