@@ -52,7 +52,85 @@ export default function EntryComponent(){
                 </div>
             </div>
 
-            
+            {/* Project Section */}
+            <div className="w-full pb-8">
+
+                <h1 className="text-center font-bold text-2xl">Projects</h1>
+
+                <div className="grid grid-cols-1 justify-center gap-6 mt-8 lg:grid-cols-2 xl:grid-cols-3">
+
+                    {/* Project 1 */}
+                    <Grid sm={12} md={5} className="flex justify-center">
+                        <Card css={{ width: "330px" }}>
+                        <Card.Header>
+                            <Text b>CRASH</Text>
+                        </Card.Header>
+                        <Card.Divider />
+                        <Card.Body css={{ py: "$10" }}>
+                            <Text>
+                            "CRASH" is a simple pygame that is developed as a part of the event hacktober fiesta.
+                            </Text>
+                        </Card.Body>
+                        <Card.Divider />
+                        <Card.Footer>
+                            <Row justify="flex-end">
+                                <Link href="https://github.com/fossgect/HACKTOBER-FIESTA22/blob/main/pygame/gameit/AkashKMathew.py">
+                                    <Button size="sm" light color="primary">Link</Button>
+                                </Link>
+                            </Row>
+                        </Card.Footer>
+                        </Card>
+                    </Grid>
+
+                    {/* Project 2 */}
+                    <Grid sm={12} md={5} className="flex justify-center">
+                        <Card css={{ width: "330px" }}>
+                        <Card.Header>
+                            <Text b>My Github</Text>
+                        </Card.Header>
+                        <Card.Divider />
+                        <Card.Body css={{ py: "$10" }}>
+                            <Text>
+                                Ckeck some of my projects.
+                            </Text>
+                        </Card.Body>
+                        <Card.Divider />
+                        <Card.Footer>
+                            <Row justify="flex-end">
+                                <Link href="https://github.com/AkashKMathew">
+                                    <Button size="sm" light color="primary">Link</Button>
+                                </Link>
+                            </Row>
+                        </Card.Footer>
+                        </Card>
+                    </Grid>
+
+                    {/* Project 3 */}
+                    <Grid sm={12} md={5} className="flex justify-center">
+                        <Card css={{ width: "330px" }}>
+                        <Card.Header>
+                            <Text b>Github</Text>
+                        </Card.Header>
+                        <Card.Divider />
+                        <Card.Body css={{ py: "$10" }}>
+                            <Text>
+                            Explore the world of open source.
+                            </Text>
+                        </Card.Body>
+                        <Card.Divider />
+                        <Card.Footer>
+                            <Row justify="flex-end">
+                                <Link href="https://github.com">
+                                    <Button size="sm" light color="primary">Link</Button>
+                                </Link>
+                            </Row>
+                        </Card.Footer>
+                        </Card>
+                    </Grid>
+
+                    
+                </div>
+            </div>
         </div>
     )
 }
