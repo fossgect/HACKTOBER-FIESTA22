@@ -40,6 +40,7 @@ from gameit.Haze import Tet
 from gameit.zAiN import hallo
 from gameit.sammyrin import paambu
 from gameit.ARJ18 import Squareventures
+from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
 
 
@@ -86,6 +87,7 @@ def main():
       "muhammed":mazeGame,
       "Devadathan-KS":GameLoop,
       "ARJ18":Squareventures,
+      "nikhilputhumana": numberGuessingGame,
       "BhargavM":bmsnake
     }
 
