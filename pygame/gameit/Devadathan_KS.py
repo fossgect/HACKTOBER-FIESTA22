@@ -1,6 +1,15 @@
 import pygame, sys, random
 
 def GameLoop():
+	
+	# Game Variables
+	ball_speed_x = 7 * random.choice((1,-1))
+	ball_speed_y = 7 * random.choice((1,-1))
+	player_speed = 0
+	opponent_speed = 7
+	ball_moving = False
+	score_time = True
+
 	#Everything the ball does is controlled by this function
 	def ball_animation():
 		global ball_speed_x, ball_speed_y, player_score, opponent_score, score_time
@@ -107,14 +116,6 @@ def GameLoop():
 	ball = pygame.Rect(screen_width / 2 - 15, screen_height / 2 - 15, 30, 30)
 	player = pygame.Rect(screen_width - 20, screen_height / 2 - 70, 10, 140)
 	opponent = pygame.Rect(10, screen_height / 2 - 70, 10,140)
-
-	# Game Variables
-	ball_speed_x = 7 * random.choice((1,-1))
-	ball_speed_y = 7 * random.choice((1,-1))
-	player_speed = 0
-	opponent_speed = 7
-	ball_moving = False
-	score_time = True
 
 	# Score Text
 	player_score = 0
