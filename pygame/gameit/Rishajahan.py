@@ -1,3 +1,8 @@
+#Balloon shooter 
+#The game is about shooting the balloon and bursting.
+#Balloon flows randomly 
+#Aim the balloon and shoot
+ 
 import pygame
 import sys
 import random
