@@ -64,18 +64,19 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>paambu</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Designed this awsome project named PAAMBU..which is basically a simple conventional snake game.
+                                please join and have fun. Your experience, is my pleasure.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/sammyrin/HACKTOBER-FIESTA22/blob/main/pygame/gameit/sammyrin.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
