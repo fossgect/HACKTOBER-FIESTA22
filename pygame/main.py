@@ -42,8 +42,13 @@ from gameit.sammyrin import paambu
 from gameit.ARJ18 import Squareventures
 from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
+<<<<<<< HEAD
 #from gameit.AnjanaPR import Spooky_Halloween
 from gameit.jisnas import nomnomnom
+=======
+#pifrom gameit.AnjanaPR import Spooky_Halloween
+from gameit.ritha import game2
+>>>>>>> 886e4b3e1fb4055243be24762b99a02fdebc5865
 
 def main():
     games = {
@@ -90,8 +95,13 @@ def main():
       "ARJ18":Squareventures,
       "nikhilputhumana": numberGuessingGame,
       "BhargavM":bmsnake,
+<<<<<<< HEAD
       "jisnas":nomnomnom,
       #"AnjanaPR":Spooky Halloween
+=======
+      "AnjanaPR":Spooky_Halloween,
+      "ritha":game2
+>>>>>>> 886e4b3e1fb4055243be24762b99a02fdebc5865
     }
 
     while True:
