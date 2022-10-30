@@ -90,7 +90,7 @@ def main():
       "ARJ18":Squareventures,
       "nikhilputhumana": numberGuessingGame,
       "BhargavM":bmsnake,
-      "AnjanaPR":Spooky_Halloween,
+      #"AnjanaPR":Spooky_Halloween,
       "ritha":game2
     }
 
