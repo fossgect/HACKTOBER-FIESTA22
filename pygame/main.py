@@ -48,6 +48,7 @@ from gameit.ANKITHPVINOD import bit
 #from gameit.AnjanaPR import Spooky_Halloween
 from gameit.jisnas import nomnomnom
 from gameit.ritha import game2
+from gameit.BassamEC import ponggame
 
 def main():
     games = {
@@ -99,6 +100,9 @@ def main():
       #"AnjPR":Spooky Halloween,
       "Nino":snake,
       "jisnas":nomnomnom,
+      "AnjanaPR":Spooky Halloween
+      "ritha":game2,
+      "BassamEC":ponggame
       "AnjanaPR":Spooky Halloween
       "ritha":game2,
       "ANKITHPVINOD":bit,
