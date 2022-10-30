@@ -1,15 +1,22 @@
+#A game that reminds us about our childhood!
 import pygame
 import random
 def nomnomnom():
     pygame.init()
 
+    #Shades
+
     white = (255, 255, 255) 
     red = (255, 0, 0)
     black = (0, 0, 0)
 
+    #Dimensions
+
     screen_width = 900
     screen_height = 600
     gameWindow = pygame.display.set_mode((screen_width, screen_height))
+
+    #Caption!!
 
     pygame.display.set_caption("Coders Home")
     pygame.display.update()
@@ -24,6 +31,8 @@ def nomnomnom():
     def plot_snake(gameWindow, color, snk_list, snake_size):
         for x,y in snk_list:
             pygame.draw.rect(gameWindow, color, [x, y, snake_size, snake_size])
+
+    #Game loop
 
     def gameloop():
         exit_game = False
