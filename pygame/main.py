@@ -42,7 +42,9 @@ from gameit.sammyrin import paambu
 from gameit.ARJ18 import Squareventures
 from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
-from gameit.AnjPR import Spooky Halloween
+#from gameit.AnjanaPR import Spooky_Halloween
+from gameit.jisnas import nomnomnom
+from gameit.ritha import game2
 
 def main():
     games = {
@@ -88,8 +90,10 @@ def main():
       "Devadathan-KS":GameLoop,
       "ARJ18":Squareventures,
       "nikhilputhumana": numberGuessingGame,
-      "BhargavM":bmsnake
-      "AnjPR":Spooky Halloween
+      "BhargavM":bmsnake,
+      "jisnas":nomnomnom,
+      #"AnjanaPR":Spooky Halloween
+      "ritha":game2
     }
 
     while True:
