@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/ARJ18.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/ridin2002.jpeg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Arjun") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Ridin") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,11 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Computer Science and Engineering undergrad | Aspiring game developer | Interested in AI/ML, Graph Theory
+                        I am Ridin Shaji ,2nd year computer science and engineering student.
+                        I am interested in Machine Learning,Artificial Intelligence.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, C, C++, Python
+                        Tech Stacks : HTML, CSS, JavaScript, Java ,C, C++
                     </p>
                 </div>
             </div>
@@ -63,18 +64,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Squareventures</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Squareventures is a 2D game in which the objective of the player is to jump over or shoot the incoming obstacles and get the highest score. 
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/ARJ18/HACKTOBER-FIESTA22/blob/main/pygame/gameit/ARJ18.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
