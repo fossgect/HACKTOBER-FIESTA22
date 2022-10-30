@@ -7,7 +7,7 @@ import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Arjun") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -47,7 +47,7 @@ export default function EntryComponent(){
                         Computer Science and Engineering undergrad | Aspiring game developer | Interested in AI/ML, Graph Theory
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript, C, C++, Python
+                        Tech Stacks : HTML, CSS, C, C++, Python
                     </p>
                 </div>
             </div>
@@ -63,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Squareventures</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Squareventures is a 2D game in which the objective of the player is to jump over or shoot the incoming obstacles and get the highest score. 
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/ARJ18/HACKTOBER-FIESTA22/blob/main/pygame/gameit/ARJ18.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>

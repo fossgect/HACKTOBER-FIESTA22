@@ -186,8 +186,8 @@ def AppleShooting():
         player(playerx,playery)
         showscore(textx,texty)
         #apply changes
-`       pygame.display.update()`
-=======
+        pygame.display.update()
+
 import pygame
 import random
 import math
