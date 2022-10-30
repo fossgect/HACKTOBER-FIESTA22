@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/ARJ18.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/sammyrin.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Arjun") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Anena Samrin") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,11 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Computer Science and Engineering undergrad | Aspiring game developer | Interested in AI/ML, Graph Theory
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, C, C++, Python
+                        Tech Stacks : HTML, CSS, JavaScript
                     </p>
                 </div>
             </div>
@@ -63,18 +64,19 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Squareventures</Text>
+                            <Text b>paambu</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Squareventures is a 2D game in which the objective of the player is to jump over or shoot the incoming obstacles and get the highest score. 
+                                Designed this awsome project named PAAMBU..which is basically a simple conventional snake game.
+                                please join and have fun. Your experience, is my pleasure.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/ARJ18/HACKTOBER-FIESTA22/blob/main/pygame/gameit/ARJ18.py">
+                                <Link href="https://github.com/sammyrin/HACKTOBER-FIESTA22/blob/main/pygame/gameit/sammyrin.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
