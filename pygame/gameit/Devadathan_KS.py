@@ -124,8 +124,6 @@ def GameLoop():
 
 	#Main game loop
 
-	global player_speed
-
 	while True:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
