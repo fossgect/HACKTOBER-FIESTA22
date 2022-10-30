@@ -96,6 +96,8 @@ def main():
       "BhargavM":bmsnake
       "AnjPR":Spooky Halloween,
       "BhargavM":bmsnake,
+      #"AnjPR":Spooky Halloween,
+      "Nino":snake,
       "jisnas":nomnomnom,
       "AnjanaPR":Spooky Halloween
       "ritha":game2,
