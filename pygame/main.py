@@ -44,6 +44,7 @@ from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
 #pifrom gameit.AnjanaPR import Spooky_Halloween
 from gameit.ritha import game2
+from gameit.Darshana_Das_K import snakeGameWithMenu
 
 def main():
     games = {
@@ -91,7 +92,8 @@ def main():
       "nikhilputhumana": numberGuessingGame,
       "BhargavM":bmsnake,
       "AnjanaPR":Spooky_Halloween,
-      "ritha":game2
+      "ritha":game2,
+      "Darshana-Das-K":snakeGameWithMenu
     }
 
     while True:
