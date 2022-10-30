@@ -21,11 +21,11 @@ def AppleShooting():
     #set window title
     pygame.display.set_caption("apple shooting")
     #set window icon
-    icon=pygame.image.load('icon.png')
+    icon=pygame.image.load('pygame/gameit/icon.png')
     pygame.display.set_icon(icon)
 
     #archer
-    playerimg=pygame.image.load('archer.png')
+    playerimg=pygame.image.load('pygame/gameit/archer.png')
     #initial position of archer
     playerx=370
     playery=480
@@ -41,14 +41,14 @@ def AppleShooting():
     numofenemy=5
     i=0
     for i in range(numofenemy):
-        enemyimg.append(pygame.image.load('apple.png'))
+        enemyimg.append(pygame.image.load('pygame/gameit/apple.png'))
         enemyx.append(random.randint(0,735))
         enemyy.append(random.randint(50,150))
         enemyxchange.append(0.1)
         enemyychange.append(30)
     
     #arrow
-    bulletimg=pygame.image.load('arrow.png')
+    bulletimg=pygame.image.load('pygame/gameit/arrow.png')
     bulletx=0
     bullety=480
     bulletxchange=0
@@ -186,8 +186,8 @@ def AppleShooting():
         player(playerx,playery)
         showscore(textx,texty)
         #apply changes
-`       pygame.display.update()`
-=======
+        pygame.display.update()
+
 import pygame
 import random
 import math
@@ -195,10 +195,10 @@ def AppleShooting():
     pygame.init()
     screen=pygame.display.set_mode((800,600))
     pygame.display.set_caption("apple shooting")
-    icon=pygame.image.load('icon.png')
+    icon=pygame.image.load('pygame/gameit/icon.png')
     pygame.display.set_icon(icon)
 
-    playerimg=pygame.image.load('archer.png')
+    playerimg=pygame.image.load('pygame/gameit/archer.png')
     playerx=370
     playery=480
     playerxchange=0
@@ -213,13 +213,13 @@ def AppleShooting():
     numofenemy=5
     i=0
     for i in range(numofenemy):
-        enemyimg.append(pygame.image.load('apple.png'))
+        enemyimg.append(pygame.image.load('pygame/gameit/apple.png'))
         enemyx.append(random.randint(0,735))
         enemyy.append(random.randint(50,150))
         enemyxchange.append(0.1)
         enemyychange.append(30)
     
-    bulletimg=pygame.image.load('arrow.png')
+    bulletimg=pygame.image.load('pygame/gameit/arrow.png')
     bulletx=0
     bullety=480
     bulletxchange=0
