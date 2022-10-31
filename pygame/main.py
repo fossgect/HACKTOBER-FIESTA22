@@ -51,6 +51,7 @@ from gameit.roshan import snakeg
 from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import ponggame
 #from gameit.yadunandan import flappy
+from gameit.chanchal import SnakeGame
 
 def main():
     games = {
@@ -106,6 +107,7 @@ def main():
       "BassamEC":ponggame,
       "ANKITHPVINOD":bit,
       #"yadunandan": flappy,
+      "chanchal":SnakeGame
     }
 
     while True:
