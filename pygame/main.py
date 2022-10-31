@@ -53,6 +53,7 @@ from gameit.roshan import snakeg
 from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import pongGame
 from gameit.unniznd import runGame
+from gameit.Chanchalsanthosh import car
 
 def main():
     games = {
@@ -110,7 +111,8 @@ def main():
       "BassamEC":pongGame,
       "ANKITHPVINOD":bit,
       "Ajmi":racing_game,
-      "unniznd":runGame
+      "unniznd":runGame,
+      "Chanchalsanthosh":car,
     }
 
 
