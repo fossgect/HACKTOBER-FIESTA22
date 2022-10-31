@@ -1,15 +1,30 @@
+#Balloon Shooter Game
+#created by megharanjani
+
+#Shoot as many balloons as you can!
+
+#Rules of the game :
+    # - Use your mouse/touchpad to focus on the random balloons.
+    # - When you click on a balloon, it will burst and you score a point.
+    # - Your score id displayed on the screen.
+
+
+#importing the library functions
 import pygame
 import sys
 import random
 from math import *
+
+
 def BalloonShooter():
 
-
+    #initialising the game
     pygame.init()
 
     width = 700
     height = 600
 
+#Setting up the display and caption
     display = pygame.display.set_mode((width, height))
     pygame.display.set_caption("Balloon Shooter Game")
     clock = pygame.time.Clock()
@@ -19,6 +34,8 @@ def BalloonShooter():
 
     score = 0
 
+
+#Defining colors
     white = (230, 230, 230)
     lightBlue = (4, 27, 96)
     red = (231, 76, 60)
@@ -33,6 +50,8 @@ def BalloonShooter():
 
     font = pygame.font.SysFont("Arial", 25)
 
+
+#Defining balloon and the various actions(move,show,burst,reset)
     class Balloon:
         def __init__(self, speed):
             self.a = random.randint(30, 40)
@@ -44,7 +63,9 @@ def BalloonShooter():
             self.proPool= [-1, -1, -1, 0, 0, 0, 0, 1, 1, 1]
             self.length = random.randint(50, 100)
             self.color = random.choice([red, green, purple, orange, yellow, blue])
-            
+
+
+
         def move(self):
             direct = random.choice(self.proPool)
 
@@ -101,7 +122,8 @@ def BalloonShooter():
             return True
         else:
             return False
-        
+    
+    #Defining the target pointer
     def pointer():
         pos = pygame.mouse.get_pos()
         r = 25
@@ -116,17 +138,22 @@ def BalloonShooter():
         pygame.draw.line(display, color, (pos[0], pos[1] + l/2), (pos[0], pos[1] + l), 4)
         pygame.draw.line(display, color, (pos[0] - l/2, pos[1]), (pos[0] - l, pos[1]), 4)
 
+
     def lowerPlatform():
         pygame.draw.rect(display, darkGray, (0, height - lowerBound, width, lowerBound))
-        
+
+    #Defining the score        
     def showScore():
         scoreText = font.render("Balloons Bursted : " + str(score), True, white)
         display.blit(scoreText, (150, height - lowerBound + 50))
-        
+
+    #Function defining close of the game    
     def close():
         pygame.quit()
         sys.exit()
         
+
+    #Defining game loop
     def game():
         global score
         loop = True
@@ -158,8 +185,8 @@ def BalloonShooter():
 
             
             lowerPlatform()
-            showScore()
-            pygame.display.update()
-            clock.tick(60)
+            showScore()     #Show the score
+            pygame.display.update()   #Updating the game changes
+            clock.tick(60)      
             
     game()
