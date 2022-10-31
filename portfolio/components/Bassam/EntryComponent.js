@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/Y-D-U.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/Bassam.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Yadu Nandan") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Bassam Elachola") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Hi I'm Yadu Nandan, I'm a Btech undergrad who loves using tech and building stuffs with it
+                       CSE Undergraduate,GEC Thrissur,
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript, Python, Pygame, Flask, React, Selenium
+                        Tech Stacks : HTML, CSS, JavaScript, python, java, oop
                     </p>
                 </div>
             </div>
@@ -63,18 +63,19 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Flappy Bird</Text>
+                            <Text b>Pong Game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                This is a desktop version of the flappy bird mobile game. Click on space it avoid obstacles and obtain maximum possible score as possible. 
-                            If the bird falls down or hits the pipe you loose</Text>
+                                A user friendly pong Game
+
+                            </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/BassamEC/HACKTOBER-FIESTA22/blob/main/pygame/gameit/BassamEC.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
