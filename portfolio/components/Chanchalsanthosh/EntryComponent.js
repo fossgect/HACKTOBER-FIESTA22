@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/Ajmi.png' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/Chanchalsanthosh.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Ajmi") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,11 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                         I'm Ajmi Nasar from Government Engineering College Thrissur currently pursuing BTech in computer science & Engineering.I'm interested in blockchain,webdevelopment and game development.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript,C,Python,Java
+                        Tech Stacks : HTML, CSS, JavaScript
                     </p>
                 </div>
             </div>
@@ -63,18 +64,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>racing_game</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                racing_game is an interesting game using python.
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/fossgect/HACKTOBER-FIESTA22/blob/main/pygame/gameit/Ajmi.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
