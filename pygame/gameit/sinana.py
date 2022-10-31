@@ -2,6 +2,13 @@
 Snake Eater
 Made with PyGame
 """
+#This is a snake game . Here we will be 
+# Keeping track of where the snake is
+# Keeping track of the length of the snake.
+#Allowing the snake to grow.
+#Checking for collisions with the window boundaries.
+#Checking if the snake has crossed over ('bitten') itself
+#Keeping track of the direction the snake is moving in
 
 import pygame, sys, time, random
 
