@@ -44,7 +44,7 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        A smart-working B.tech Electronics and Communication undergraduate student who is very much interested in the field of Data Science and programming. I want to pursue a career in the field of Data Science. I’m experienced in programming languages like Python, C++ and Java. Also, I’m a dedicated learner and always wish to gain experience and develop my skills.
+                        A smart-working B.tech Electronics and Communication undergraduate student who is very much interested in the field of Data Science and Developing. I want to pursue a career in the field of Data Science. I’m experienced in programming languages like Python, C++ and Java. Also, I’m a dedicated learner and always wish to gain experience and develop my skills.
 
 I love watching movies and listening to music. I love solving sudoku puzzles during my free time.
                         <br/><br/>
