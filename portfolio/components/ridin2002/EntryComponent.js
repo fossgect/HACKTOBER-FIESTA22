@@ -64,18 +64,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>web shooters</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                It is a game to kill bugs using spider web.It is simple created by python
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/ridin2002/HACKTOBER-FIESTA22/blob/main/pygame/gameit/ridin2002.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>

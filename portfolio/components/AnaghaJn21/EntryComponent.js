@@ -60,27 +60,27 @@ export default function EntryComponent(){
                 <div className="grid grid-cols-1 justify-center gap-6 mt-8 lg:grid-cols-2 xl:grid-cols-3">
 
                     {/* Project 1 */}
-                    <Grid sm={12} md={5} className="flex justify-center">
-                        <Card css={{ width: "330px" }}>
-                        <Card.Header>
-                            <Text b>Project Name</Text>
-                        </Card.Header>
-                        <Card.Divider />
-                        <Card.Body css={{ py: "$10" }}>
-                            <Text>
-                                Project Description
-                            </Text>
-                        </Card.Body>
-                        <Card.Divider />
-                        <Card.Footer>
-                            <Row justify="flex-end">
-                                <Link href="https://github.com">
-                                    <Button size="sm" light color="primary">Link</Button>
-                                </Link>
-                            </Row>
-                        </Card.Footer>
-                        </Card>
-                    </Grid>
+                  <Grid sm={12} md={5} className="flex justify-center">
+                      <Card css={{ width: "330px" }}>
+                      <Card.Header>
+                          <Text b> Apple Shooter </Text>
+                      </Card.Header>
+                      <Card.Divider />
+                      <Card.Body css={{ py: "$10" }}>
+                          <Text>
+                             A game about shooting apples with a bow.
+                          </Text>
+                      </Card.Body>
+                      <Card.Divider />
+                      <Card.Footer>
+                          <Row justify="flex-end">
+                              <Link href="<Project_repo_link>">
+                                  <Button size="sm" light color="primary">https://github.com/AnaghaJn21/HACKTOBER-FIESTA22/blob/main/pygame/gameit/AnaghaJn21.py</Button>
+                              </Link>
+                          </Row>
+                      </Card.Footer>
+                      </Card>
+                  </Grid>
 
                     {/* Project 2 */}
                     <Grid sm={12} md={5} className="flex justify-center">
