@@ -1,3 +1,9 @@
+# UpAndDown
+# Created by Muhsin
+
+
+#? The objective of the game is to jump through the red blocks till the last red block in the game
+#* Use spacebar to jump and LEFT and RIGHT arrow keys to move through the screen
 
 import pygame
 
