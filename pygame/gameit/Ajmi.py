@@ -1,3 +1,11 @@
+# car game 
+# project by Ajmi Nasar
+
+# Rules of the game-
+# the objective of the game is to avoid a car crash with careful driving from the user 
+# use the left and right arrow key to make the car change lanes and avoid crashing with the car coming head on
+
+
 import pygame
 from pygame.locals import *
 import random
