@@ -69,14 +69,13 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                            #it is a funny game in this halloween
-                            #the user have to kill all the pumpkins before gameover with the help of a ghost
-
-                            #rules of game
-                            #user can access the movements of ghost by left and right arrow keys
-                            #user can shoot the pumpkin by using space key
-                            #score will be displayed on the left top corner
-                            #if any pumpkin reaches the ground the will end
+                                it is a funny game in this halloween
+                                the user have to kill all the pumpkins before gameover with the help of a ghost 
+                                rules of game
+                                user can access the movements of ghost by left and right arrow keys
+                                user can shoot the pumpkin by using space key
+                                score will be displayed on the left top corner
+                                if any pumpkin reaches the ground the will end
                             </Text>
                         </Card.Body>
                         <Card.Divider />
