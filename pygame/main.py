@@ -42,14 +42,14 @@ from gameit.sammyrin import paambu
 from gameit.ARJ18 import Squareventures
 from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
-<<<<<<< HEAD
+
+
 #from gameit.AnjPR import Spooky Halloween
-=======
+
 #from gameit.AnjanaPR import Spooky_Halloween
 from gameit.jisnas import nomnomnom
 from gameit.ritha import game2
->>>>>>> 6c4e2f7703c267c72f8e682bc8d62b8d5488fbfe
-
+from gameit.Ajmi import racing_game
 def main():
     games = {
       "msmuhsin": upAndDown,
@@ -94,15 +94,11 @@ def main():
       "Devadathan-KS":GameLoop,
       "ARJ18":Squareventures,
       "nikhilputhumana": numberGuessingGame,
-<<<<<<< HEAD
-      "BhargavM":bmsnake
-      #"AnjPR":Spooky Halloween
-=======
       "BhargavM":bmsnake,
       "jisnas":nomnomnom,
       #"AnjanaPR":Spooky Halloween
-      "ritha":game2
->>>>>>> 6c4e2f7703c267c72f8e682bc8d62b8d5488fbfe
+      "ritha":game2,
+      "Ajmi":racing_game,
     }
 
     while True:
