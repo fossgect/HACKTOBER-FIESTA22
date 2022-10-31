@@ -7,7 +7,7 @@ def PlayerPro():
 
     pygame.display.set_caption("JumpMan by Taslim")
 
-    x = 45 #* position of character at the start of game x axis from 0 to 500
+    x = 45 #!!!! position of character at the start of game x axis from 0 to 500
     y = 480 #* position of character at the start of game y axis from 0 to 500
 
     width = 20              #* width of the character
