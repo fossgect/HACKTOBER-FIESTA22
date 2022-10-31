@@ -99,7 +99,7 @@ def main():
       "BhargavM":bmsnake
       "AnjPR":Spooky Halloween,
       "BhargavM":bmsnake,
-      "AnjanaPR":Spooky_Halloween,
+      #"AnjanaPR":Spooky_Halloween,
       "ritha":game2,
       "Darshana-Das-K":snakeGameWithMenu,
       #"AnjPR":Spooky Halloween,
