@@ -44,11 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Hey there, I am a third year ME student passionate about anything automation
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript
+                        Tech Stacks : HTML, CSS, JavaScript, Python
                     </p>
                 </div>
             </div>
@@ -69,7 +68,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A hangman game using python is created to guess words
                             </Text>
                         </Card.Body>
                         <Card.Divider />
