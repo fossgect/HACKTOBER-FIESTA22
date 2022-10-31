@@ -63,19 +63,19 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Pong</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A recreation of the very first computer game using the pygame module
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
                                 <Link href="https://github.com">
-                                    <Button size="sm" light color="primary">Link</Button>
+                                    <Button size="sm" light color="primary">https://github.com/Devadathan-KS/HACKTOBER-FIESTA22/blob/main/pygame/gameit/Devadathan_KS.py</Button>
                                 </Link>
                             </Row>
                         </Card.Footer>

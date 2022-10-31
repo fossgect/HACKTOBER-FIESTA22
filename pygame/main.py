@@ -43,13 +43,24 @@ from gameit.ARJ18 import Squareventures
 from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
 
-
 #from gameit.AnjPR import Spooky Halloween
 
 #from gameit.AnjanaPR import Spooky_Halloween
 from gameit.jisnas import nomnomnom
 from gameit.ritha import game2
 from gameit.Ajmi import racing_game
+
+from gameit.AnjPR import Spooky_Halloween
+from gameit.ANKITHPVINOD import bit
+from gameit.AnjPR import Spooky_Halloween
+from gameit.jisnas import nomnomnom
+from gameit.ritha import game2
+from gameit.roshan import snakeg
+from gameit.Darshana_Das_K import snakeGameWithMenu
+from gameit.BassamEC import ponggame
+#from gameit.yadunandan import flappy
+
+
 def main():
     games = {
       "msmuhsin": upAndDown,
@@ -90,15 +101,26 @@ def main():
       "AnaghaJn21":AppleShooting,
       "zAiN" :hallo,
       "sammyrin":paambu,
-      "muhammed":mazeGame,
+      "muhammed770":mazeGame,
       "Devadathan-KS":GameLoop,
       "ARJ18":Squareventures,
       "nikhilputhumana": numberGuessingGame,
       "BhargavM":bmsnake,
+      "AnjPR":Spooky_Halloween,
+      "ritha":game2,
+      "Darshana-Das-K":snakeGameWithMenu,
+      "Nino":snake,
       "jisnas":nomnomnom,
+
       #"AnjanaPR":Spooky Halloween
       "ritha":game2,
       "Ajmi":racing_game,
+
+      "roshan":snakeg,
+      "BassamEC":ponggame,
+      "ANKITHPVINOD":bit,
+      #"yadunandan": flappy,
+
     }
 
     while True:
