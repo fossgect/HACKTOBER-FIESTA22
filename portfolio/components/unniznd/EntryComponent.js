@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/Template.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/unniznd.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Aanand S") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,11 +44,9 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        <br/><br/>
+                        Software Dev | Web3 | Blockchain | Tech Enthusiast
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript
+                        Tech Stacks : Django, Blockchain, Web3, Python, Java
                     </p>
                 </div>
             </div>
