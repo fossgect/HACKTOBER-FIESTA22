@@ -1,7 +1,6 @@
 # UpAndDown
 # Created by Muhsin
 
-
 #? The objective of the game is to jump through the red blocks till the last red block in the game
 #* Use spacebar to jump and LEFT and RIGHT arrow keys to move through the screen
 
@@ -43,6 +42,8 @@ def upAndDown():
             x -= speed
 
         win.fill((0, 0, 255))
+
+        # blocks of the game
 
         pygame.draw.circle(win, (255, 255, 0), [x, y], width, 2)
         pygame.draw.rect(win, (255, 0, 0), (0, 450, 40, 50))
