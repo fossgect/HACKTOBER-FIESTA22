@@ -63,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>balloon shooter</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Project Description: In this game  balloons are  moving all over the screen. The player will have a target like an arrow  and he has to aim and bust those moving ballons.  On busting each moving balloon successfully, the busting score will be increased.For the development of the Balloon Shooter Game using Python PyGame, we will use various pygame modules to add different functionalities to the game. code for continuous movement of balloons, a shooting functionality, and updating the score every time the balloon is busted. All these functions can be done using various modules like draw, mouse, render, etc.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Rithas2003/HACKTOBER-FIESTA22/blob/main/pygame/gameit/ritha.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
