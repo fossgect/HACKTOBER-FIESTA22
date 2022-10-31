@@ -1,6 +1,6 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/Template.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/Chanchalsanthosh.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
@@ -44,11 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Iam a student of gec thrissur, pursuing btech dergree in computer science and engineering
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript
+                        Tech Stacks : HTML, CSS, Java,C
                     </p>
                 </div>
             </div>
@@ -64,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>car</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                It is a racing car game which is very easy to play.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/Chanchalsanthosh/HACKTOBER-FIESTA22/blob/main/pygame/gameit/Chanchalsanthosh.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
