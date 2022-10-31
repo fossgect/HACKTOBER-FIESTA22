@@ -5,7 +5,7 @@ def PlayerPro():
     pygame.init()
     win = pygame.display.set_mode((500, 500))
 
-    pygame.display.set_caption("JumpMan by Taslim")
+    pygame.display.set_caption("JumpMan by ShibinSHa")
 
     x = 45 #!!!! position of character at the start of game x axis from 0 to 500
     y = 480 #* position of character at the start of game y axis from 0 to 500
