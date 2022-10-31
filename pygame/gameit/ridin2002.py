@@ -130,7 +130,7 @@ def webshooters():
 
                     #if up arrow pressed spider shoot the web  
                     if event.key==pygame.K_UP:
-                        if bullet_state is "ready":
+                        if bullet_state == "ready":
                             bulletX=playerX
                             fire_bullet(playerX,bulletY)
 
@@ -182,7 +182,7 @@ def webshooters():
         if bulletY<=0:
             bulletY=480
             bullet_state="ready"
-        if bullet_state is "fire":
+        if bullet_state == "fire":
             fire_bullet(bulletX,bulletY)
             bulletY -=bulletY_change
 
