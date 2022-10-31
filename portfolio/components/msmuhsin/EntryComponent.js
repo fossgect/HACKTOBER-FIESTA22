@@ -47,7 +47,7 @@ export default function EntryComponent(){
                         I'm studying web devolopment and Student pursuing B.Tech in Computer Science from Government Engineering College, Thrissur
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML,C,python
+                        Tech Stacks : HTML,C,python,Java,CSS
                     </p>
                 </div>
             </div>
