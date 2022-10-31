@@ -7,7 +7,7 @@ import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm X") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Dennis Mathew Jose") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -65,18 +65,18 @@ I love watching movies and listening to music. I love solving sudoku puzzles dur
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Space War</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Pygame Project
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/dennismathewjose/HACKTOBER-FIESTA22/blob/main/pygame/gameit/dennismathewjose.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -88,18 +88,18 @@ I love watching movies and listening to music. I love solving sudoku puzzles dur
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>MNIST Digit Recognition</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Machine Learning Project
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/dennismathewjose/Machine-Learning-Models/blob/main/Handwritten%20Digit%20recognition(MNIST%20Dataset).ipynb">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -111,18 +111,18 @@ I love watching movies and listening to music. I love solving sudoku puzzles dur
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Basic Interface of cellphone</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                C++ class 12 project
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/dennismathewjose/Demo-OS-of-a-basic-mobile.">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
