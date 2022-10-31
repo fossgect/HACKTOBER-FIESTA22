@@ -9,8 +9,8 @@ screen=pygame.display.set_mode(DIM)
 pygame.display.set_caption("FLAPPY BIRD")
 PATH=r"gameit\Flappy"
 
-bg1=pygame.image.load("gameit/static/AnjanaPR/bg.png")
-bg2=pygame.image.load("\bg.png")
+bg1=pygame.image.load(PATH+r"\bg.png")
+bg2=pygame.image.load(PATH+r"\bg.png")
 bg1_x,bg1_y=0,0
 bg2_x,bg2_y=0,0
 bg1c=True
@@ -33,8 +33,12 @@ MAIN=True
 RUN=False
 n=0
 oldpoints=0
+
+#Press the space bar to make the bird go up.
+#If you hit the blocks or fall of you loose the game
 def flappy():
 	global MAIN,RUN, points
+	#defining Bird class
 	class Bird():
 		def __init__(self):
 			self.X=DIM[0]//4
@@ -77,7 +81,7 @@ def flappy():
 					neg=1
 					self.y=self.Y
 
-
+	#Defining barrier class
 	class Pipe():
 		def __init__(self,x):
 			self.x=x
@@ -197,7 +201,7 @@ def flappy():
 
 	
 
-
+	#GAME LOOP
 	while MAIN:
 		pipe_array=[Pipe(DIM[0]+i*170) for i in range(10)]
 		

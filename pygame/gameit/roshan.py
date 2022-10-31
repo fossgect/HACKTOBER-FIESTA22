@@ -1,3 +1,12 @@
+#game - Snakegame
+#Created by Roshan
+
+# How to play:
+# - Use keyboard arrow keys to move up, down, left and right
+# - Eat the food to score
+
+
+
 import pygame
 import time
 import random
