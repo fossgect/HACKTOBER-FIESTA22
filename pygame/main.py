@@ -51,6 +51,7 @@ from gameit.ritha import game2
 from gameit.roshan import snakeg
 from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import ponggame
+from gameit.yadunandan import flappy
 
 def main():
     games = {
@@ -116,6 +117,7 @@ def main():
       "ANKITHPVINOD":bit,
       "AnjanaPR":Spooky Halloween,
       "ritha":game2,
+      "yadunandan": flappy,
     }
 
     while True:
