@@ -44,7 +44,8 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                       Hello , I'm Anjana P R .I'm a creative person and a tech enthusiast passionate about AI/ML .
+                       Hello , I'm Anjana P R , currently persuing btech in Computerscience and Engineering. I'm a creative person and a tech enthusiast passionate about AI/ML .
+
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
                         Tech Stacks : HTML, CSS, JavaScript , Python , Kotlin
