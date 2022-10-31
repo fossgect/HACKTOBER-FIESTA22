@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/dennismathewjose.jpeg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/Ajmi.png' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Dennis Mathew Jose") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Ajmi") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,12 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        A smart-working B.tech Electronics and Communication undergraduate student who is very much interested in the field of Data Science and Developing. I want to pursue a career in the field of Data Science. I’m experienced in programming languages like Python, C++ and Java. Also, I’m a dedicated learner and always wish to gain experience and develop my skills.
-
-I love watching movies and listening to music. I love solving sudoku puzzles during my free time.
+                         I'm Ajmi Nasar from Government Engineering College Thrissur currently pursuing BTech in computer science & Engineering.I'm interested in blockchain,webdevelopment and game development.
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : JAVA,Python, C++/C, SQL, Machine Learning.
+                        Tech Stacks : HTML, CSS, JavaScript,C,Python,Java
                     </p>
                 </div>
             </div>
@@ -65,18 +63,18 @@ I love watching movies and listening to music. I love solving sudoku puzzles dur
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Space War</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Pygame Project
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/dennismathewjose/HACKTOBER-FIESTA22/blob/main/pygame/gameit/dennismathewjose.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -88,18 +86,18 @@ I love watching movies and listening to music. I love solving sudoku puzzles dur
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>MNIST Digit Recognition</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Machine Learning Project
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/dennismathewjose/Machine-Learning-Models/blob/main/Handwritten%20Digit%20recognition(MNIST%20Dataset).ipynb">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -111,18 +109,18 @@ I love watching movies and listening to music. I love solving sudoku puzzles dur
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Basic Interface of cellphone</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                C++ class 12 project
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/dennismathewjose/Demo-OS-of-a-basic-mobile.">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
