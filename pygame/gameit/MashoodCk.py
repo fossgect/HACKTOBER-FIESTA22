@@ -1,7 +1,7 @@
 '''simple maze game by : MashoodCk'''
 
 """Maze, move from one side to another.
-    lets play the game!!!!!!
+    lets play the game!!!!!!!!
 """
 
 from random import random
@@ -36,7 +36,7 @@ def mazeGame():
         color('red')
         goto(x, y)
         dot(4)
-
+"""hello documented"""
 
     setup(420, 420, 370, 0)
     hideturtle()
