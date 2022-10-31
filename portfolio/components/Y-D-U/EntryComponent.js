@@ -69,7 +69,7 @@ export default function EntryComponent(){
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
                                 This is a desktop version of the flappy bird mobile game. Click on space it avoid obstacles and obtain maximum possible score as possible. 
-                            </Text>
+                            If the bird falls down or hits the pipe you loose</Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
