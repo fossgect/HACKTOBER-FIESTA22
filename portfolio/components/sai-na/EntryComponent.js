@@ -36,7 +36,13 @@ export default function EntryComponent() {
             {/* Hero Section */}
             <div className="w-full flex flex-col items-center py-16 px-8">
                 {/* Profile Image */}
+
+
+
+
+
                 <div className="w-fit h-fit max-w-[200px] max-h-[200px] border p-1 border-black rounded-[50%]">
+
                     <Image src={ProfileImg} style={{ borderRadius: "50%", margin: "0" }} />
                 </div>
                 {/* Description */}
@@ -46,8 +52,8 @@ export default function EntryComponent() {
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        I am 2nd year computer science and engineering student of Government Engineering College,Thrissur.,
-                        i have also 3 year diploma in computer engineering
+                        I am 2nd year computer science and engineering student of Government Engineering College,Thrissur., <br />
+                        I have also 3 year diploma in computer engineering
                         I am interested in  AI , ML , React JS.
                         <br /><br />
                         {/* Add Your Tech Stacks */}
@@ -57,41 +63,29 @@ export default function EntryComponent() {
             </div>
 
             {/* Project Section */}
-            <div className="w-full pb-8">
+            <div className="w-full pb-8 flex justify-center">
 
                 {/* <h1 className="text-center font-bold text-2xl">Projects</h1> */}
 
-                <div className="grid grid-cols-1 justify-center gap-6 mt-8 lg:grid-cols-2 xl:grid-cols-3">
-
-                    {/* Project 1 */}
-
-
-                    {/* <Grid sm={12} md={5} className="flex justify-center">
-                        <Card css={{ width: "330px" }}>
-                            <Card.Header>
-                                <Text b>Halloween Hunt 🎃</Text>
-                            </Card.Header>
-                            <Card.Divider />
-                            <Card.Body css={{ py: "$10" }}>
-                                <Text>
-                                    Halloween Hunt 🎃 is a simple game created using python. The aim of th game is collect many pumpkins 🎃 as you can without contact with enemy 🤖 ,  Whenever the player got contacted to enemy, he'll loose a life ♥  . After loosing three lives
-                                </Text>
-                            </Card.Body>
-                            <Card.Divider />
-                            <Card.Footer>
-                                <Row justify="flex-end">
-                                    <Link href="https://github.com/urmila-13/HACKTOBER-FIESTA22/blob/main/pygame/gameit/urmila.py">
-                                        <Button size="sm" light color="primary">Link</Button>
-                                    </Link>
-                                </Row>
-                            </Card.Footer>
-                        </Card>
-                    </Grid> */}
 
 
 
-
+                <div className="max-w-sm rounded-lg overflow-hidden shadow-lg font-sans">
+                    <img className="w-full " src="https://firebasestorage.googleapis.com/v0/b/linux-gec.appspot.com/o/pygame-sai-na.png?alt=media&token=dc3188f8-bc7f-411a-b0cf-09a47131dc61" alt="Sunset in the mountains" />
+                    <div className="px-6 py-4">
+                        <div className="font-bold text-2xl mb-2 font-sans">Halloween Hunt 🎃</div>
+                        <p className="text-gray-700 text-lg font-sans mt-4">
+                            Halloween Hunt 🎃 is a simple game created using python. The aim of th game is collect many pumpkins 🎃 as you can without contact with enemy 🤖 ,  Whenever the player got contacted to enemy, he'll loose a life ♥  . After loosing three lives
+                        </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#pygame</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Halloween</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#HACKTOBER-FIESTA22</span>
+                    </div>
                 </div>
+
+
             </div>
         </div>
     )

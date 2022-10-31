@@ -9,8 +9,8 @@ screen=pygame.display.set_mode(DIM)
 pygame.display.set_caption("FLAPPY BIRD")
 PATH=r"gameit\Flappy"
 
-bg1=pygame.image.load("gameit/static/AnjanaPR/background.png")
-bg2=pygame.image.load("gameit/static/AnjanaPR/background.png")
+bg1=pygame.image.load(PATH+r"\bg.png")
+bg2=pygame.image.load(PATH+r"\bg.png")
 bg1_x,bg1_y=0,0
 bg2_x,bg2_y=0,0
 bg1c=True
