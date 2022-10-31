@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/ANKITHPVINOD.jpeg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/megharanjani.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Ankith") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Megha Ranjani") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,9 +44,12 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        CSE Undergrad, GEC Thrissur<br/><br/>
+                        I am a student at GEC Thrissur, as a CSE undergraduate. 
+                        I love reading and singing.
+                        I am proficient in 7 languages including Sanskrit and French.
+                        <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript, C, Java
+                        Tech Stacks : C, Java, Python
                     </p>
                 </div>
             </div>
@@ -62,18 +65,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>bit</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                it is a game of blocks
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/ANKITHPVINOD/HACKTOBER-FIESTA22/blob/main/pygame/gameit/ANKITHPVINOD.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>

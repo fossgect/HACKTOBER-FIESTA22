@@ -1,3 +1,7 @@
+#Hangman is created using python.
+#It is a word guessing game with lmited trials
+#The player has to guess the complete word before the man is put to the noose
+#There are 4 chances in this game to guess the correct word, so good luck.
 import random
 import time
 
