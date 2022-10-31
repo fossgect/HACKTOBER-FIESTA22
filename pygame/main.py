@@ -54,6 +54,7 @@ from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import pongGame
 from gameit.unniznd import runGame
 from gameit.Chanchalsanthosh import car
+from gameit.dennismathewjose import space_war
 from gameit.nairadethya2208 import game
 
 def main():
@@ -113,6 +114,7 @@ def main():
       "Ajmi":racing_game,
       "unniznd":runGame,
       "Chanchalsanthosh":car,
+      "dennismathewjose": space_war,
       "nairadethya2208" : game,
     }
 
