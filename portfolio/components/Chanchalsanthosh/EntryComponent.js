@@ -1,6 +1,6 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/Template.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/Chanchalsanthosh.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
