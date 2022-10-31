@@ -1,13 +1,13 @@
 import Image from "next/image";
 import PortfolioNavbar from "./Navbar/Navbar";
-import ProfileImg from '../../public/jisnas.jpg' // Change Image name to your Uploaded File Name
+import ProfileImg from '../../public/msmuhsin.jpg' // Change Image name to your Uploaded File Name
 import { useEffect, useState } from "react";
 import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Jisna Sibi") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Muhsin") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        I am a 2nd year CSE undergrad at Govt. Engineering College Thrissur. I am well versed in C and Java.
+                        I'm studying web devolopment and Student pursuing B.Tech in Computer Science from Government Engineering College, Thrissur
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : C, Java
+                        Tech Stacks : HTML,C,python
                     </p>
                 </div>
             </div>
@@ -63,18 +63,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Snek game</Text>
+                            <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Snek eat apple
+                                Project Description
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Jisnas/HACKTOBER-FIESTA22/blob/main/pygame/gameit/jisnas.py">
+                                <Link href="https://github.com">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
