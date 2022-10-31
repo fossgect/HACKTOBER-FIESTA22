@@ -7,7 +7,7 @@ pygame.mixer.init()
 DIM=(600,360)
 screen=pygame.display.set_mode(DIM)
 pygame.display.set_caption("FLAPPY BIRD")
-PATH=r"gameit\Flappy"
+PATH=r"gameit\static\Flappy"
 
 bg1=pygame.image.load(PATH+r"\bg.png")
 bg2=pygame.image.load(PATH+r"\bg.png")
