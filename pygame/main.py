@@ -1,3 +1,4 @@
+from tkinter.tix import Balloon
 from gameit.aqeelshamz import treasureHunt
 from gameit.urmila import HuntingBirds
 from gameit.aayahda import snakesGame
@@ -13,7 +14,7 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
-
+from gameit.megharanjani import BalloonShooter
 def main():
     games = {
       "aayahda": snakesGame,
@@ -30,7 +31,8 @@ def main():
       'AnnMol_2002':sudoku,
       "Ash-394": pongGame,
       "vishakh": car_game,
-      "ebinjose02":Snake
+      "ebinjose02":Snake,
+      "megharanjani": BalloonShooter
 }
 
     while True:
