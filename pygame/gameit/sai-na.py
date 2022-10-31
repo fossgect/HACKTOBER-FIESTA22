@@ -1,3 +1,14 @@
+# Halloween Hunt 🎃
+# Created by SAI NATH A ,
+# Path: pygame\gameit\sai-na.py
+
+
+# Arrow keys can be used for navigation. Press SPACE to jump.
+#  Enemies will be falling from the sky and the player should try to avoid
+# contact with enemy. Whenever the player got contacted to enemy, he'll loose a life.
+#  After loosing three lives, print "Game Over!!"
+
+
 from http.client import PROXY_AUTHENTICATION_REQUIRED
 import pygame
 import os
