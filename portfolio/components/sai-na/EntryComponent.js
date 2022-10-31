@@ -46,7 +46,8 @@ export default function EntryComponent() {
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        I am 2nd year computer science and engineering student of Government Engineering College,Thrissur.
+                        I am 2nd year computer science and engineering student of Government Engineering College,Thrissur.,
+                        i have also 3 year diploma in computer engineering
                         I am interested in  AI , ML , React JS.
                         <br /><br />
                         {/* Add Your Tech Stacks */}
