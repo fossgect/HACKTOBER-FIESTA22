@@ -44,11 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Hi I'm Yadu Nandan, I'm a Btech undergrad who loves using tech and building stuffs with it
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, JavaScript
+                        Tech Stacks : HTML, CSS, JavaScript, Python, Pygame, Flask, React, Selenium
                     </p>
                 </div>
             </div>
@@ -64,12 +63,12 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Flappy Bird</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                This is a desktop version of the flappy bird mobile game. Click on space it avoid obstacles and obtain maximum possible score as possible. 
                             </Text>
                         </Card.Body>
                         <Card.Divider />
