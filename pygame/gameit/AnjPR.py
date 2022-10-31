@@ -122,7 +122,7 @@ def Spooky_Halloween():
                 if event.key == pygame.K_RIGHT:
                     playerX_change = 5
                 if event.key == pygame.K_SPACE:
-                    if garlic_state is "ready":
+                    if garlic_state == "ready":
                         garlicSound = mixer.Sound("gameit/static/AnjanaPR/laser.wav")
                         garlicSound.play()
                         # Get the current x cordinate of the spaceship
@@ -176,7 +176,7 @@ def Spooky_Halloween():
             garlicY = 480
             garlic_state = "ready"
 
-        if garlic_state is "fire":
+        if garlic_state == "fire":
             fire_garlic(garlicX, garlicY)
             garlicY -= garlicY_change
 
