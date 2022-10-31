@@ -1,10 +1,10 @@
 import pygame,time, random
 
-def abhiGame():
+def playAzmi():
 
     pygame.init()
  
-    score_color ="#5C2E7E"
+    score_color ="#5C2E7E" 
     snake_color = (0, 0, 0)
     red = (213, 50, 80)
     food_color ="#FFFF00"
@@ -23,18 +23,19 @@ def abhiGame():
     msg_font = pygame.font.SysFont("Bold", 60)
     score_font = pygame.font.SysFont("FrakturBold", 50)
  
-    
+    #about snake
     def snake(snake_block, snake_list):
         for x in snake_list:
             pygame.draw.rect(screen, snake_color, [x[0], x[1], snake_block, snake_block])
 
     
-    def total_score(score):
+    #about score
+    def total_score(score): 
         value = score_font.render("Total Score: " + str(score), True, score_color)
         screen.blit(value, [0, 0])        
 
     
-    def message(msg, color):
+    def message(msg, color): 
         mesg = msg_font.render(msg, True, color)
         screen.blit(mesg, [width / 10, height / 3])
 
@@ -43,6 +44,7 @@ def abhiGame():
         pygame.draw.circle(screen, food_color, [int(x), int(y)], radius)
  
     
+    #main function
     def main():
         game_over = False
         game_close = False
@@ -128,3 +130,5 @@ def abhiGame():
     quit()
  
     main()
+
+#main function end
