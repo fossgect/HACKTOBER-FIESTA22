@@ -74,7 +74,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com/Darshana-Das-K/HACKTOBER-FIESTA22">
+                                <Link href="https://github.com/Darshana-Das-K/HACKTOBER-FIESTA22/blob/main/pygame/gameit/Darshana_Das_K.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
