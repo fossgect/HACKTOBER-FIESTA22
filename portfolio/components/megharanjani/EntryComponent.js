@@ -57,7 +57,7 @@ export default function EntryComponent(){
             {/* Project Section */}
             <div className="w-full pb-8">
 
-                <h1 className="text-center font-bold text-2xl">Projects</h1>
+                <h1 className="text-center font-bold text-2xl">Projects :</h1>
 
                 <div className="grid grid-cols-1 justify-center gap-6 mt-8 lg:grid-cols-2 xl:grid-cols-3">
 
@@ -65,64 +65,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Balloon Shooter Game</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                Shoot as many balloons as you can!
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
-                                    <Button size="sm" light color="primary">Link</Button>
-                                </Link>
-                            </Row>
-                        </Card.Footer>
-                        </Card>
-                    </Grid>
-
-                    {/* Project 2 */}
-                    <Grid sm={12} md={5} className="flex justify-center">
-                        <Card css={{ width: "330px" }}>
-                        <Card.Header>
-                            <Text b>Project Name</Text>
-                        </Card.Header>
-                        <Card.Divider />
-                        <Card.Body css={{ py: "$10" }}>
-                            <Text>
-                                Project Description
-                            </Text>
-                        </Card.Body>
-                        <Card.Divider />
-                        <Card.Footer>
-                            <Row justify="flex-end">
-                                <Link href="https://github.com">
-                                    <Button size="sm" light color="primary">Link</Button>
-                                </Link>
-                            </Row>
-                        </Card.Footer>
-                        </Card>
-                    </Grid>
-
-                    {/* Project 3 */}
-                    <Grid sm={12} md={5} className="flex justify-center">
-                        <Card css={{ width: "330px" }}>
-                        <Card.Header>
-                            <Text b>Project Name</Text>
-                        </Card.Header>
-                        <Card.Divider />
-                        <Card.Body css={{ py: "$10" }}>
-                            <Text>
-                                Project Description
-                            </Text>
-                        </Card.Body>
-                        <Card.Divider />
-                        <Card.Footer>
-                            <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/megharanjani">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
