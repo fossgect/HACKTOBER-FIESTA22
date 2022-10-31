@@ -1,5 +1,5 @@
-import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
-import { Layout } from "./Layout.js.js";
+import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react"
+import { Layout } from "./Layout.js"
 
 export default function PortfolioNavbar() {
 
@@ -7,7 +7,7 @@ export default function PortfolioNavbar() {
     <Layout>
       <Navbar isBordered variant="sticky">
         <Text b color="inherit" className="nav-heading" >
-            Portfolio
+          Portfolio
         </Text>
         <Navbar.Brand
           css={{
@@ -30,17 +30,17 @@ export default function PortfolioNavbar() {
         >
           <Dropdown placement="bottom-right">
             <Navbar.Item>
-                <Avatar
-                  bordered
-                  as="button"
-                  color="secondary"
-                  size="md"
-                  src="/Mimithamg.jpg" // Change Image name to your Uploaded File Name
-                />
+              <Avatar
+                bordered
+                as="button"
+                color="secondary"
+                size="md"
+                src="/Mimithamg.jpg" // Change Image name to your Uploaded File Name
+              />
             </Navbar.Item>
           </Dropdown>
         </Navbar.Content>
       </Navbar>
     </Layout>
-  );
+  )
 }
