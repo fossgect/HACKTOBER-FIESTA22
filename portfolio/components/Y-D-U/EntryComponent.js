@@ -74,7 +74,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                              <Link href="https://github.com/Y-D-U/FlappyBird">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
