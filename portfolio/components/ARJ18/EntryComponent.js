@@ -7,7 +7,7 @@ import { Card, Grid, Text, Row, Button, Link } from "@nextui-org/react";
 
 export default function EntryComponent(){
 
-    const [txt,setTxt] = useState("Hey I'm Arjun") // Change X to Your Full Name
+    const [txt,setTxt] = useState("Hey I'm Almas") // Change X to Your Full Name
 
     var i = 0;
     var speed = 100;
@@ -44,10 +44,10 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                        Computer Science and Engineering undergrad | Aspiring game developer | Interested in AI/ML, Graph Theory
+                        Web Developer @aNumak & Company | Microsoft Learn Student Ambassador | mentee @Codess Cafe | Jr. Developer @3DE Studios
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
-                        Tech Stacks : HTML, CSS, C, C++, Python
+                        Tech Stacks : HTML, CSS, Java, C++, Python, Javascript
                     </p>
                 </div>
             </div>
@@ -63,12 +63,12 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Squareventures</Text>
+                            <Text b>Roblox</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Squareventures is a 2D game in which the objective of the player is to jump over or shoot the incoming obstacles and get the highest score. 
+                                Roblox is the ultimate virtual universe that lets you create, share experiences with friends, and be anything you can imagine. 
                             </Text>
                         </Card.Body>
                         <Card.Divider />
@@ -112,7 +112,7 @@ export default function EntryComponent(){
                             <Text b>Project Name</Text>
                         </Card.Header>
                         <Card.Divider />
-                        <Card.Body css={{ py: "$10" }}>
+                        <Card.Body css={{ py: "$50" }}>
                             <Text>
                                 Project Description
                             </Text>
