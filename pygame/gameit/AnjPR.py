@@ -19,19 +19,19 @@ def Spooky_Halloween():
     screen = pygame.display.set_mode((800, 600))
 
     # Background
-    background = pygame.image.load('background.png')
+    background = pygame.image.load('gameit/static/AnjanaPR/background.png')
 
     # Sound
-    mixer.music.load("background.wav")
+    mixer.music.load("gameit/static/AnjanaPR/background.wav")
     mixer.music.play(-1)
 
     # Caption and Icon
     pygame.display.set_caption("Spooky Halloween")
-    icon = pygame.image.load('pumpkin.png')
+    icon = pygame.image.load('gameit/static/AnjanaPR/pumpkin.png')
     pygame.display.set_icon(icon)
 
     # player
-    playerImg = pygame.image.load('player.png')
+    playerImg = pygame.image.load('gameit/static/AnjanaPR/player.png')
     playerX = 370
     playerY = 480
     playerX_change = 0
@@ -45,7 +45,7 @@ def Spooky_Halloween():
     num_of_enemies = 6
 
     for i in range(num_of_enemies):
-        ghostImg.append(pygame.image.load('ghost.png'))
+        ghostImg.append(pygame.image.load('gameit/static/AnjanaPR/ghost.png'))
         ghostX.append(random.randint(0, 736))
         ghostY.append(random.randint(50, 100))
         ghostX_change.append(4)
@@ -54,7 +54,7 @@ def Spooky_Halloween():
     # garlic
     # Fire - The garlic is currently moving
 
-    garlicImg = pygame.image.load('garlic.png')
+    garlicImg = pygame.image.load('gameit/static/AnjanaPR/garlic.png')
     garlicX = 0
     garlicY = 480
     garlicX_change = 0
@@ -123,7 +123,7 @@ def Spooky_Halloween():
                     playerX_change = 5
                 if event.key == pygame.K_SPACE:
                     if garlic_state is "ready":
-                        garlicSound = mixer.Sound("laser.wav")
+                        garlicSound = mixer.Sound("gameit/static/AnjanaPR/laser.wav")
                         garlicSound.play()
                         # Get the current x cordinate of the spaceship
                         garlicX = playerX
@@ -161,7 +161,7 @@ def Spooky_Halloween():
             # Collision
             collision = isCollision(ghostX[i], ghostY[i], garlicX, garlicY)
             if collision:
-                explosionSound = mixer.Sound("explosion.wav")
+                explosionSound = mixer.Sound("gameit/static/AnjanaPR/explosion.wav")
                 explosionSound.play()
                 garlicY = 480
                 garlic_state = "ready"
