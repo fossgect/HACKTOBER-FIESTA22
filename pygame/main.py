@@ -1,3 +1,4 @@
+from tkinter.tix import Balloon
 from gameit.aqeelshamz import treasureHunt
 from gameit.urmila import HuntingBirds
 from gameit.aayahda import snakesGame
@@ -15,6 +16,7 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
+
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
 from gameit.azmisal import playAzmi
@@ -42,6 +44,14 @@ from gameit.sammyrin import paambu
 from gameit.ARJ18 import Squareventures
 from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
+
+#from gameit.AnjPR import Spooky Halloween
+
+#from gameit.AnjanaPR import Spooky_Halloween
+from gameit.jisnas import nomnomnom
+from gameit.ritha import game2
+from gameit.Ajmi import racing_game
+
 from gameit.AnjPR import Spooky_Halloween
 from gameit.ANKITHPVINOD import bit
 #from gameit.AnjPR import Spooky Halloween
@@ -52,6 +62,7 @@ from gameit.roshan import snakeg
 from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import ponggame
 from gameit.yadunandan import flappy
+
 
 def main():
     games = {
@@ -72,6 +83,7 @@ def main():
       "Ash-394": pongGame,
       "vishakh": car_game,
       "ebinjose02":Snake,
+
       "Prometheus2k":Game2048,
       "ashitha-18":SudokoGame,
       "azmisal":playAzmi,
@@ -108,6 +120,13 @@ def main():
       "jisnas":nomnomnom,
       #"AnjanaPR":Spooky Halloween
       "ritha":game2,
+      "Ajmi":racing_game,
+      "roshan":snakeg,
+      "BassamEC":ponggame,
+      "ANKITHPVINOD":bit,
+      #"yadunandan": flappy,
+      #"AnjanaPR":Spooky Halloween
+      "ritha":game2,
       "roshan":snakeg
       "AnjanaPR":Spooky Halloween
       "ritha":game2,
@@ -119,6 +138,7 @@ def main():
       "ritha":game2,
       "yadunandan": flappy,
     }
+
 
     while True:
         username = input("Enter github username:\n")

@@ -1,4 +1,19 @@
- 
+ #game "bit"
+#created by ANKITHPVINOD
+
+
+#it is a funny game
+#it is a game of blue blocks
+#the user has a green block which can be moved up and down
+#the user have to move his block towards the blue block
+
+
+
+#happy gaming
+#all the best for the game
+
+
+#importing library functions
 import pygame
 import sys
 import random
