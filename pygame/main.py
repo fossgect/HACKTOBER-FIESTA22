@@ -1,4 +1,3 @@
-from tkinter.tix import Balloon
 from gameit.aqeelshamz import treasureHunt
 from gameit.urmila import HuntingBirds
 from gameit.aayahda import snakesGame
@@ -16,7 +15,6 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
-
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
 from gameit.azmisal import playAzmi
@@ -54,7 +52,6 @@ from gameit.ritha import game2
 from gameit.roshan import snakeg
 from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import pongGame
-#from gameit.yadunandan import flappy
 
 
 def main():
@@ -113,7 +110,6 @@ def main():
       "BassamEC":pongGame,
       "ANKITHPVINOD":bit,
       "Ajmi":racing_game,
-     # "yadunandan": flappy,,
     }
 
 
