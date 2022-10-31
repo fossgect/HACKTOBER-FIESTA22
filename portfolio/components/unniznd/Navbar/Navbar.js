@@ -35,7 +35,7 @@ export default function PortfolioNavbar() {
                   as="button"
                   color="secondary"
                   size="md"
-                  src="/Template.jpg" // Change Image name to your Uploaded File Name
+                  src="/unniznd.jpg" // Change Image name to your Uploaded File Name
                 />
             </Navbar.Item>
           </Dropdown>
