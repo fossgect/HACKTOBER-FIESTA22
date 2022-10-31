@@ -1,3 +1,4 @@
+from tkinter.tix import Balloon
 from gameit.aqeelshamz import treasureHunt
 from gameit.urmila import HuntingBirds
 from gameit.aayahda import snakesGame
@@ -15,6 +16,7 @@ from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
+
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
 from gameit.azmisal import playAzmi
@@ -42,6 +44,9 @@ from gameit.sammyrin import paambu
 from gameit.ARJ18 import Squareventures
 from gameit.nikhilputhumana import numberGuessingGame
 from gameit.BhargavM import bmsnake
+from gameit.jisnas import nomnomnom
+from gameit.ritha import game2
+from gameit.Ajmi import racing_game
 from gameit.AnjPR import Spooky_Halloween
 from gameit.ANKITHPVINOD import bit
 from gameit.jisnas import nomnomnom
@@ -50,6 +55,7 @@ from gameit.roshan import snakeg
 from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import pongGame
 #from gameit.yadunandan import flappy
+
 
 def main():
     games = {
@@ -101,12 +107,15 @@ def main():
       "Darshana-Das-K":snakeGameWithMenu,
       "Nino":snake,
       "jisnas":nomnomnom,
+      "ritha":game2,
       "roshan":snakeg,
+      "AnjPR" : Spooky_Halloween,
       "BassamEC":pongGame,
       "ANKITHPVINOD":bit,
-     # "yadunandan": flappy,
-      "Ritha":game2,
+      "Ajmi":racing_game,
+     # "yadunandan": flappy,,
     }
+
 
     while True:
         username = input("Enter github username:\n")
