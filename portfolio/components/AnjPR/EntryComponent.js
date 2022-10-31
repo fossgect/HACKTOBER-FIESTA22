@@ -64,18 +64,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Spooky Halloween</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                            In this Halloween season let's shoot garlics to the ghosts.A simple shooter game to solve your boredom.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/AnjPR/HACKTOBER-FIESTA22/blob/main/pygame/gameit/AnjPR.py">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -87,18 +87,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Habit Maker App</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                               A simple app to make record your activity to make it a habit.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="https://github.com/AnjPR/Habit-Maker-app">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
@@ -110,18 +110,18 @@ export default function EntryComponent(){
                     <Grid sm={12} md={5} className="flex justify-center">
                         <Card css={{ width: "330px" }}>
                         <Card.Header>
-                            <Text b>Project Name</Text>
+                            <Text b>Greeting App</Text>
                         </Card.Header>
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                Project Description
+                                A webapp to display greetings and joy
                             </Text>
                         </Card.Body>
                         <Card.Divider />
                         <Card.Footer>
                             <Row justify="flex-end">
-                                <Link href="https://github.com">
+                                <Link href="">
                                     <Button size="sm" light color="primary">Link</Button>
                                 </Link>
                             </Row>
