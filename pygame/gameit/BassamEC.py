@@ -1,4 +1,10 @@
+# Rules of the game-
+# the objective of the game is to avoid a car crash with careful driving from the user 
+# use the left and right arrow key to make the car change lanes and avoid crashing with the car coming head on
+# game created BassamEC
+
 import pygame
+
 #main function of the pong game
 def pongGame():
     #setting the RGB values of each color so that it can be easily used
