@@ -58,7 +58,7 @@ export default function EntryComponent() {
             {/* Project Section */}
             <div className="w-full pb-8">
 
-                <h1 className="text-center font-bold text-2xl">Projects</h1>
+                {/* <h1 className="text-center font-bold text-2xl">Projects</h1> */}
 
                 <div className="grid grid-cols-1 justify-center gap-6 mt-8 lg:grid-cols-2 xl:grid-cols-3">
 
