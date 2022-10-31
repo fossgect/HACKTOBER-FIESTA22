@@ -1,51 +1,56 @@
-# Rules of the game-
-# the objective of the game is to avoid a car crash with careful driving from the user 
-# use the left and right arrow key to make the car change lanes and avoid crashing with the car coming head on
-# game created BassamEC
+#bounce ball game 
+#created by JB
+#how to play 
+#->use arrow wkeys to move left and right 
+#->bounce back the ball with the help of the base plate
+#->you will get a score each time you bounce the ball failure of which you will lose your score 
+
 
 import pygame
 
-#main function of the pong game
-def pongGame():
-    #setting the RGB values of each color so that it can be easily used
+def bounce():
+
     BLACK = (0,0,0)
     WHITE = (255,255,255)
     RED = (255,0,0)
+    GREEN = (0,255,0)
+    BLUE = (0,0,255)
 
-    pygame.init() #initialize all imported pygame modules
+    pygame.init()
 
-    #Initializing the display window
+
     size = (800,600)
     screen = pygame.display.set_mode(size)
-    pygame.display.set_caption("Pong")
+    pygame.display.set_caption("Bounce Ball Game")
 
-    #Starting coordinates of the paddle
+
     rect_x = 400
     rect_y = 580
 
-    #initial speed of the paddle
+
     rect_change_x = 0
     rect_change_y = 0
 
-    #initial position of the ball
+
     ball_x = 50
     ball_y = 50
 
-    #speed of the ball
+
     ball_change_x = 5
     ball_change_y = 5
 
     score = 0
 
-    #draws the paddle. Also restricts its movement between the edges
-    #of the window.
+
     def drawrect(screen,x,y):
         if x <= 0:
             x = 0
         if x >= 699:
             x = 699    
-        pygame.draw.rect(screen,RED,[x,y,100,20])   
-    #game's main loop    
+        pygame.draw.rect(screen,GREEN,[x,y,100,20])
+        
+
+
     done = False
     clock=pygame.time.Clock()
     while not done:
@@ -56,7 +61,8 @@ def pongGame():
                 if event.key == pygame.K_LEFT:
                     rect_change_x = -6
                 elif event.key == pygame.K_RIGHT:
-                    rect_change_x = 6           
+                    rect_change_x = 6
+                    
             elif event.type == pygame.KEYUP:
                 if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
                     rect_change_x = 0
@@ -70,7 +76,7 @@ def pongGame():
         ball_y += ball_change_y
         
         
-        #this handles the movement of the ball.
+
         if ball_x<0:
             ball_x=0
             ball_change_x = ball_change_x * -1
@@ -88,15 +94,15 @@ def pongGame():
             score = 0                        
         pygame.draw.rect(screen,WHITE,[ball_x,ball_y,15,15])
         
-        #drawball(screen,ball_x,ball_y)
+    
         drawrect(screen,rect_x,rect_y)
         
-        #score board
+        
         font= pygame.font.SysFont('Calibri', 15, False, False)
         text = font.render("Score = " + str(score), True, WHITE)
         screen.blit(text,[600,100])    
         
         pygame.display.flip()         
-        clock.tick(60) #the FPS is specified as 60
+        clock.tick(60)
         
-    pygame.quit()  
+    pygame.quit()    
