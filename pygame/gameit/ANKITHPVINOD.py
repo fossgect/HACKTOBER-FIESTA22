@@ -4,8 +4,8 @@
 
 #it is a funny game
 #it is a game of blue blocks
-#the user has a green block which can be moved up and down
-#the user have to move his block towards the blue block
+#the user will have a colored block which can be moved up and down
+#the user have to move his block towards blocks of color of that of the user's
 
 
 
