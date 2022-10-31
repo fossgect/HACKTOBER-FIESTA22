@@ -48,6 +48,7 @@ from gameit.ANKITHPVINOD import bit
 #from gameit.AnjanaPR import Spooky_Halloween
 from gameit.jisnas import nomnomnom
 from gameit.ritha import game2
+from gameit.roshan import snakeg
 from gameit.Darshana_Das_K import snakeGameWithMenu
 from gameit.BassamEC import ponggame
 
@@ -104,6 +105,9 @@ def main():
       #"AnjPR":Spooky Halloween,
       "Nino":snake,
       "jisnas":nomnomnom,
+      #"AnjanaPR":Spooky Halloween
+      "ritha":game2,
+      "roshan":snakeg
       "AnjanaPR":Spooky Halloween
       "ritha":game2,
       "BassamEC":ponggame
