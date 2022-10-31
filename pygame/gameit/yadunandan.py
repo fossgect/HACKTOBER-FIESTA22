@@ -33,8 +33,12 @@ MAIN=True
 RUN=False
 n=0
 oldpoints=0
+
+#Press the space bar to make the bird go up.
+#If you hit the blocks or fall of you loose the game
 def flappy():
 	global MAIN,RUN, points
+	#defining Bird class
 	class Bird():
 		def __init__(self):
 			self.X=DIM[0]//4
@@ -77,7 +81,7 @@ def flappy():
 					neg=1
 					self.y=self.Y
 
-
+	#Defining barrier class
 	class Pipe():
 		def __init__(self,x):
 			self.x=x
@@ -197,7 +201,7 @@ def flappy():
 
 	
 
-
+	#GAME LOOP
 	while MAIN:
 		pipe_array=[Pipe(DIM[0]+i*170) for i in range(10)]
 		
