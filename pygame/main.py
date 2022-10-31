@@ -6,13 +6,18 @@ from gameit.AditiAjithkumar import SnakeGame
 from gameit.sreni import Tic_Tac_Toe
 from gameit.majid_2002 import jumpMan
 from gameit.abhijithram import abhiGame
+from gameit.msmuhsin import upAndDown
 from gameit.kmSidharthM import Space_Invader
 from gameit.anuragrajanp import feedTheSnake
+from gameit.AkashKMathew import crash
 from gameit.AnnMol_2002 import sudoku
 from gameit.example import exampleGame
 from gameit.ash394 import pongGame
 from gameit.vishakh import car_game
 from gameit.ebinjose02 import Snake
+from gameit.Prometheus2k import Game2048
+from gameit.ashitha_18 import SudokoGame
+from gameit.azmisal import playAzmi
 from gameit.jithinpkumar import ArmyBase
 from gameit.Prometheus2k import Game2048
 from gameit.ashitha_18 import SudokoGame
@@ -26,13 +31,40 @@ from gameit.ezbonpj import bounce
 from gameit.ridin2002 import webshooters
 from gameit.taslimmuhammed import PlayerPro
 from gameit.nived_krish44 import snake
+from gameit.Devadathan_KS import GameLoop
+from gameit.Rishajahan import shooter
 from gameit.sinana import snake
 from gameit.muhammed770 import mazeGame
 from gameit.AnaghaJn21 import AppleShooting
+from gameit.Haze import Tet
+from gameit.zAiN import hallo
 from gameit.sammyrin import paambu
+from gameit.ARJ18 import Squareventures
+from gameit.nikhilputhumana import numberGuessingGame
+from gameit.BhargavM import bmsnake
+
+#from gameit.AnjPR import Spooky Halloween
+
+#from gameit.AnjanaPR import Spooky_Halloween
+from gameit.jisnas import nomnomnom
+from gameit.ritha import game2
+from gameit.Ajmi import racing_game
+
+from gameit.AnjPR import Spooky_Halloween
+from gameit.ANKITHPVINOD import bit
+#from gameit.AnjPR import Spooky Halloween
+#from gameit.AnjanaPR import Spooky_Halloween
+from gameit.jisnas import nomnomnom
+from gameit.ritha import game2
+from gameit.roshan import snakeg
+from gameit.Darshana_Das_K import snakeGameWithMenu
+from gameit.BassamEC import ponggame
+from gameit.yadunandan import flappy
+
 
 def main():
     games = {
+      "msmuhsin": upAndDown,
       "aayahda": snakesGame,
       "example": exampleGame, 
       "aqeelshamz": treasureHunt, 
@@ -42,12 +74,16 @@ def main():
       "abhijithram":abhiGame,
       "kmSidharthM":Space_Invader,
       "anuragrajanp":feedTheSnake,
+      "AkashKMathew": crash,
       "AditiAjithkumar":SnakeGame,
       "urmila":HuntingBirds,
       'AnnMol_2002':sudoku,
       "Ash-394": pongGame,
       "vishakh": car_game,
       "ebinjose02":Snake,
+      "Prometheus2k":Game2048,
+      "ashitha-18":SudokoGame,
+      "azmisal":playAzmi,
       "jithinpkumar":ArmyBase,
       "mimithamg":halloween,
       "jithinpkumar":ArmyBase,
@@ -59,12 +95,46 @@ def main():
       "ezbonpj":bounce,
       "ridin2002":webshooters,
       "nived_krish44":snake,
-      "sinana":snake
+      "Haze":Tet,
       "AnaghaJn21":AppleShooting,
+      "Rishajahan":shooter,
+      "sinana":snake,
+      "AnaghaJn21":AppleShooting,
+      "zAiN" :hallo,
       "sammyrin":paambu,
       "muhammed":mazeGame,
+      "Devadathan-KS":GameLoop,
+      "ARJ18":Squareventures,
+      "nikhilputhumana": numberGuessingGame,
+      "BhargavM":bmsnake
+      "AnjPR":Spooky Halloween,
+      "BhargavM":bmsnake,
+      #"AnjanaPR":Spooky_Halloween,
+      "ritha":game2,
+      "Darshana-Das-K":snakeGameWithMenu,
+      #"AnjPR":Spooky Halloween,
+      "Nino":snake,
+      "jisnas":nomnomnom,
+      #"AnjanaPR":Spooky Halloween
+      "ritha":game2,
+      "Ajmi":racing_game,
+      "roshan":snakeg,
+      "BassamEC":ponggame,
+      "ANKITHPVINOD":bit,
+      #"yadunandan": flappy,
+      #"AnjanaPR":Spooky Halloween
+      "ritha":game2,
+      "roshan":snakeg
+      "AnjanaPR":Spooky Halloween
+      "ritha":game2,
+      "BassamEC":ponggame
+      "AnjanaPR":Spooky Halloween
+      "ritha":game2,
+      "ANKITHPVINOD":bit,
+      "AnjanaPR":Spooky Halloween,
+      "ritha":game2,
+      "yadunandan": flappy,
     }
-
 
     while True:
         username = input("Enter github username:\n")
@@ -76,4 +146,4 @@ def main():
 
 
 if __name__ == "__main__":
-  main()
+    main()

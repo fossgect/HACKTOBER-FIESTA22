@@ -1,7 +1,7 @@
 '''simple maze game by : Muhammed770'''
 
 """Maze, move from one side to another.
-
+    lets play!!!!!!
 """
 
 from random import random
