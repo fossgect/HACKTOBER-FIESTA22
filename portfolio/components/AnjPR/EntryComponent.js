@@ -44,7 +44,7 @@ export default function EntryComponent(){
                     </div>
                     <p className="text-center font-txt mt-3 max-w-[600px]">
                         {/* Change Description Here */}
-                       Hello , I'm Anjana P R ,currently persuing btech in Computerscience and Engineering. I'm a creative person and a tech enthusiast passionate about AI/ML .
+                       Hey I'm currently persuing btech in Computerscience and Engineering. I'm a creative and curious person and a tech enthusiast passionate about AI/ML .
 
                         <br/><br/>
                         {/* Add Your Tech Stacks */}
@@ -56,7 +56,7 @@ export default function EntryComponent(){
             {/* Project Section */}
             <div className="w-full pb-8">
 
-                <h1 className="text-center font-bold text-2xl">Projects</h1>
+                <h1 className="text-center font-bold text-2xl">Projects </h1>
 
                 <div className="grid grid-cols-1 justify-center gap-6 mt-8 lg:grid-cols-2 xl:grid-cols-3">
 
@@ -92,7 +92,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                               A simple app to make record your activity to make it a habit.
+                               A simple app to make record your activities to make  it a habit.
                             </Text>
                         </Card.Body>
                         <Card.Divider />
@@ -115,7 +115,7 @@ export default function EntryComponent(){
                         <Card.Divider />
                         <Card.Body css={{ py: "$10" }}>
                             <Text>
-                                A webapp to display greetings and joy
+                                A webapp using flask to display greetings and joy
                             </Text>
                         </Card.Body>
                         <Card.Divider />
