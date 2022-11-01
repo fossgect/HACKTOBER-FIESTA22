@@ -1,4 +1,4 @@
-import EntryComponent from "../components/<github_user_id>/EntryComponent";
+import EntryComponent from "../components/Template/EntryComponent";
 
 
 export default function Home() {

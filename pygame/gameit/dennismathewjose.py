@@ -1,3 +1,29 @@
+
+		#how to play the game
+		# """ 
+		# for red spaceship
+		# --------------------
+		# keys : W -> move up
+		#        A -> move left
+		#        S -> move down
+		#        D -> move right
+
+		# bullet : - Right Shift
+		
+
+		# for yellow spaceship
+		# ________________________
+		# keys : use arrow keys accordingly
+		# bullet : Left Shift
+
+		# Game Rules: 
+		# _____________
+
+		# Each player has a health score of 10. If any bullet hit the opponent your health will decrease.
+		# The player who reaches health 0 loses the game.
+		# Each player can move in any direction as they use the controls.
+		# """
+
 import pygame
 import os
 import time
